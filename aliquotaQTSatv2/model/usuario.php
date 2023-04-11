@@ -23,7 +23,7 @@
                 return 0;
             }
             else {
-               $this->imposto = ($this->rendimento * $this->aliquota) / 100;
+               $this->imposto = $this->rendimento * ($this->aliquota / 100);
 
                 return $this->imposto;
             }
@@ -68,7 +68,7 @@
         //funcao para calcular aliquota
         public function aliquota(){
 
-            if ($this->rendimento > 0 && $this->rendimento <= 22847.76) {
+            if ($this->rendimento <= 22847.76) {
                 return 0;
             }
             else if ($this->rendimento > 22847.76 && $this->rendimento <= 33919.80) {
