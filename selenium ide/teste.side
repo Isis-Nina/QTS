@@ -1,0 +1,3617 @@
+{
+  "id": "d6db1ada-aec7-426a-b6e1-b9d35fa09b43",
+  "version": "2.0",
+  "name": "teste",
+  "url": "http://localhost/aliquota/view/index.php",
+  "tests": [{
+    "id": "22bfa357-3cc2-4a3a-ab6c-70bb834d13d6",
+    "name": "alíquota 7,5%",
+    "commands": [{
+      "id": "5f2699c2-5110-42ed-930d-b9bce40184bc",
+      "comment": "",
+      "command": "open",
+      "target": "http://localhost/aliquota/view/index.php",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "e358f56d-b71b-4bc4-96b7-449fb4d5aa71",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1050x700",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "9ad4304f-a563-4792-b9c2-dc57953bfa08",
+      "comment": "",
+      "command": "click",
+      "target": "id=nome",
+      "targets": [
+        ["id=nome", "id"],
+        ["name=nome", "name"],
+        ["css=#nome", "css:finder"],
+        ["xpath=//input[@id='nome']", "xpath:attributes"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "7aad2677-dd7c-4db7-9c19-e2f7eeecc00a",
+      "comment": "",
+      "command": "type",
+      "target": "id=nome",
+      "targets": [
+        ["id=nome", "id"],
+        ["name=nome", "name"],
+        ["css=#nome", "css:finder"],
+        ["xpath=//input[@id='nome']", "xpath:attributes"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": "Isis"
+    }, {
+      "id": "0517f33b-fba0-4734-a462-31aa7221398d",
+      "comment": "",
+      "command": "click",
+      "target": "id=cpf",
+      "targets": [
+        ["id=cpf", "id"],
+        ["name=cpf", "name"],
+        ["css=#cpf", "css:finder"],
+        ["xpath=//input[@id='cpf']", "xpath:attributes"],
+        ["xpath=//input[2]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "39d41384-b5a3-48d8-a72a-83a1d1d8a4f1",
+      "comment": "",
+      "command": "type",
+      "target": "id=cpf",
+      "targets": [
+        ["id=cpf", "id"],
+        ["name=cpf", "name"],
+        ["css=#cpf", "css:finder"],
+        ["xpath=//input[@id='cpf']", "xpath:attributes"],
+        ["xpath=//input[2]", "xpath:position"]
+      ],
+      "value": "54229436866"
+    }, {
+      "id": "4e3ac78e-54a2-4c87-aea2-0861eae48117",
+      "comment": "",
+      "command": "click",
+      "target": "id=rendimento",
+      "targets": [
+        ["id=rendimento", "id"],
+        ["name=rendimento", "name"],
+        ["css=#rendimento", "css:finder"],
+        ["xpath=//input[@id='rendimento']", "xpath:attributes"],
+        ["xpath=//input[3]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "46058f7a-3b41-4d45-b790-7ca204f12bd6",
+      "comment": "",
+      "command": "type",
+      "target": "id=rendimento",
+      "targets": [
+        ["id=rendimento", "id"],
+        ["name=rendimento", "name"],
+        ["css=#rendimento", "css:finder"],
+        ["xpath=//input[@id='rendimento']", "xpath:attributes"],
+        ["xpath=//input[3]", "xpath:position"]
+      ],
+      "value": "22900"
+    }, {
+      "id": "c3b3c7d6-0917-4700-a041-b456c26f614a",
+      "comment": "",
+      "command": "click",
+      "target": "css=.button",
+      "targets": [
+        ["css=.button", "css:finder"],
+        ["xpath=//input[@value='Concluído']", "xpath:attributes"],
+        ["xpath=//input[4]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "58e02afd-c5b0-40b4-a755-a3258b4a9535",
+      "comment": "",
+      "command": "click",
+      "target": "css=p:nth-child(2)",
+      "targets": [
+        ["css=p:nth-child(2)", "css:finder"],
+        ["xpath=//p[@name='nome']", "xpath:attributes"],
+        ["xpath=//p", "xpath:position"],
+        ["xpath=//p[contains(.,'Nome: Isis')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "32d32078-0285-4a22-b39f-24508acd9049",
+      "comment": "",
+      "command": "verifyText",
+      "target": "css=p:nth-child(2)",
+      "targets": [
+        ["css=p:nth-child(2)", "css:finder"],
+        ["xpath=//p[@name='nome']", "xpath:attributes"],
+        ["xpath=//p", "xpath:position"],
+        ["xpath=//p[contains(.,'Nome: Isis')]", "xpath:innerText"]
+      ],
+      "value": "Nome: Isis"
+    }, {
+      "id": "d448a8cf-b073-4f3b-a5ac-8a154d046d44",
+      "comment": "",
+      "command": "click",
+      "target": "css=p:nth-child(3)",
+      "targets": [
+        ["css=p:nth-child(3)", "css:finder"],
+        ["xpath=//p[@name='cpf']", "xpath:attributes"],
+        ["xpath=//p[2]", "xpath:position"],
+        ["xpath=//p[contains(.,'CPF: 54229436866')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "8194a469-2da9-4b91-8c95-6472866de727",
+      "comment": "",
+      "command": "verifyText",
+      "target": "css=p:nth-child(3)",
+      "targets": [
+        ["css=p:nth-child(3)", "css:finder"],
+        ["xpath=//p[@name='cpf']", "xpath:attributes"],
+        ["xpath=//p[2]", "xpath:position"],
+        ["xpath=//p[contains(.,'CPF: 54229436866')]", "xpath:innerText"]
+      ],
+      "value": "CPF: 54229436866"
+    }, {
+      "id": "14c3ce73-ee10-404e-9e8c-baf2eab52771",
+      "comment": "",
+      "command": "click",
+      "target": "css=p:nth-child(4)",
+      "targets": [
+        ["css=p:nth-child(4)", "css:finder"],
+        ["xpath=//p[@name='rendimento']", "xpath:attributes"],
+        ["xpath=//p[3]", "xpath:position"],
+        ["xpath=//p[contains(.,'Rendimento: R$ 22900')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "e701444a-ce1a-4a79-8487-6f95d5c2bbff",
+      "comment": "",
+      "command": "verifyText",
+      "target": "css=p:nth-child(4)",
+      "targets": [
+        ["css=p:nth-child(4)", "css:finder"],
+        ["xpath=//p[@name='rendimento']", "xpath:attributes"],
+        ["xpath=//p[3]", "xpath:position"],
+        ["xpath=//p[contains(.,'Rendimento: R$ 22900')]", "xpath:innerText"]
+      ],
+      "value": "Rendimento: R$ 22900"
+    }, {
+      "id": "c5fd3bf9-8bf7-43cf-9ece-6ee6e785ff40",
+      "comment": "",
+      "command": "click",
+      "target": "css=p:nth-child(5)",
+      "targets": [
+        ["css=p:nth-child(5)", "css:finder"],
+        ["xpath=//p[@name='aliquota']", "xpath:attributes"],
+        ["xpath=//p[4]", "xpath:position"],
+        ["xpath=//p[contains(.,'Alíquota: 7.5%')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "a9987d8b-af07-4377-a552-0f2575cd2a2e",
+      "comment": "",
+      "command": "verifyText",
+      "target": "css=p:nth-child(5)",
+      "targets": [
+        ["css=p:nth-child(5)", "css:finder"],
+        ["xpath=//p[@name='aliquota']", "xpath:attributes"],
+        ["xpath=//p[4]", "xpath:position"],
+        ["xpath=//p[contains(.,'Alíquota: 7.5%')]", "xpath:innerText"]
+      ],
+      "value": "Alíquota: 7.5%"
+    }, {
+      "id": "055b05fb-81c3-4639-947d-4ff05e7b93ba",
+      "comment": "",
+      "command": "click",
+      "target": "css=p:nth-child(6)",
+      "targets": [
+        ["css=p:nth-child(6)", "css:finder"],
+        ["xpath=//p[@name='imposto']", "xpath:attributes"],
+        ["xpath=//p[5]", "xpath:position"],
+        ["xpath=//p[contains(.,'Termos de Imposto: R$ 1717.5')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "04458b4f-5a1f-4dc7-8bf4-8ff401317629",
+      "comment": "",
+      "command": "verifyText",
+      "target": "css=p:nth-child(6)",
+      "targets": [
+        ["css=p:nth-child(6)", "css:finder"],
+        ["xpath=//p[@name='imposto']", "xpath:attributes"],
+        ["xpath=//p[5]", "xpath:position"],
+        ["xpath=//p[contains(.,'Termos de Imposto: R$ 1717.5')]", "xpath:innerText"]
+      ],
+      "value": "Termos de Imposto: R$ 1717.5"
+    }]
+  }, {
+    "id": "deab9121-df11-49f1-bade-cc18bb7b8de3",
+    "name": "alíquota 15%",
+    "commands": [{
+      "id": "a532b86a-ea36-4e52-8bd6-8911d9cea342",
+      "comment": "teste alíquota 15%",
+      "command": "open",
+      "target": "http://localhost/aliquota/view/index.php",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "bb0fad5c-9000-4e1f-a28a-1ceb87ad5cf0",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "860x552",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "e401a721-7502-4551-9616-0938ba8b1137",
+      "comment": "",
+      "command": "click",
+      "target": "id=nome",
+      "targets": [
+        ["id=nome", "id"],
+        ["name=nome", "name"],
+        ["css=#nome", "css:finder"],
+        ["xpath=//input[@id='nome']", "xpath:attributes"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "a5ff310f-0be0-4fdf-9ff3-26ec00da08ab",
+      "comment": "",
+      "command": "type",
+      "target": "id=nome",
+      "targets": [
+        ["id=nome", "id"],
+        ["name=nome", "name"],
+        ["css=#nome", "css:finder"],
+        ["xpath=//input[@id='nome']", "xpath:attributes"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": "isis"
+    }, {
+      "id": "51718365-077c-43ac-91ed-f21d14cf4303",
+      "comment": "",
+      "command": "click",
+      "target": "id=cpf",
+      "targets": [
+        ["id=cpf", "id"],
+        ["name=cpf", "name"],
+        ["css=#cpf", "css:finder"],
+        ["xpath=//input[@id='cpf']", "xpath:attributes"],
+        ["xpath=//input[2]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "fab3fa2f-819e-48a4-9e21-22c1e5338ff2",
+      "comment": "",
+      "command": "type",
+      "target": "id=cpf",
+      "targets": [
+        ["id=nome", "id"],
+        ["name=nome", "name"],
+        ["css=#nome", "css:finder"],
+        ["xpath=//input[@id='nome']", "xpath:attributes"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": "542.294.368-66"
+    }, {
+      "id": "cad120ff-24ac-42c1-a23d-db45f1034751",
+      "comment": "",
+      "command": "type",
+      "target": "id=rendimento",
+      "targets": [
+        ["id=rendimento", "id"],
+        ["name=rendimento", "name"],
+        ["css=#rendimento", "css:finder"],
+        ["xpath=//input[@id='rendimento']", "xpath:attributes"],
+        ["xpath=//input[3]", "xpath:position"]
+      ],
+      "value": "40000"
+    }, {
+      "id": "b7e3d2b7-0506-44d7-80f5-e451704d71d2",
+      "comment": "",
+      "command": "click",
+      "target": "css=.button",
+      "targets": [
+        ["css=.button", "css:finder"],
+        ["xpath=//input[@value='Concluído']", "xpath:attributes"],
+        ["xpath=//input[4]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "2acac996-b70b-468b-ad4a-37bcf253a544",
+      "comment": "",
+      "command": "click",
+      "target": "css=p:nth-child(2)",
+      "targets": [
+        ["css=p:nth-child(2)", "css:finder"],
+        ["xpath=//p[@name='nome']", "xpath:attributes"],
+        ["xpath=//p", "xpath:position"],
+        ["xpath=//p[contains(.,'Nome: isis')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "653dcf1b-be65-4460-9c25-47abd1c558a7",
+      "comment": "",
+      "command": "verifyText",
+      "target": "css=p:nth-child(2)",
+      "targets": [
+        ["css=p:nth-child(2)", "css:finder"],
+        ["xpath=//p[@name='nome']", "xpath:attributes"],
+        ["xpath=//p", "xpath:position"],
+        ["xpath=//p[contains(.,'Nome: isis')]", "xpath:innerText"]
+      ],
+      "value": "Nome: isis"
+    }, {
+      "id": "f0ace39f-2c5c-4c25-8599-3ec32083794e",
+      "comment": "",
+      "command": "click",
+      "target": "css=p:nth-child(3)",
+      "targets": [
+        ["css=p:nth-child(3)", "css:finder"],
+        ["xpath=//p[@name='cpf']", "xpath:attributes"],
+        ["xpath=//p[2]", "xpath:position"],
+        ["xpath=//p[contains(.,'CPF: 542.294.368-66')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "4f0c4ade-cfe7-4e00-aeec-513787e934e2",
+      "comment": "",
+      "command": "verifyText",
+      "target": "css=p:nth-child(3)",
+      "targets": [
+        ["css=p:nth-child(3)", "css:finder"],
+        ["xpath=//p[@name='cpf']", "xpath:attributes"],
+        ["xpath=//p[2]", "xpath:position"],
+        ["xpath=//p[contains(.,'CPF: 542.294.368-66')]", "xpath:innerText"]
+      ],
+      "value": "CPF: 542.294.368-66"
+    }, {
+      "id": "45efcc04-39d4-4d53-85fe-c7ca18e21ba2",
+      "comment": "",
+      "command": "click",
+      "target": "css=body",
+      "targets": [
+        ["css=body", "css:finder"],
+        ["xpath=//body", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "c256d5c1-8855-4f54-99f9-431242f57cf2",
+      "comment": "",
+      "command": "click",
+      "target": "css=p:nth-child(4)",
+      "targets": [
+        ["css=p:nth-child(4)", "css:finder"],
+        ["xpath=//p[@name='rendimento']", "xpath:attributes"],
+        ["xpath=//p[3]", "xpath:position"],
+        ["xpath=//p[contains(.,'Rendimento: R$ 40000')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "bd0367ca-f6ce-43a2-8e79-62d47cb22770",
+      "comment": "",
+      "command": "verifyText",
+      "target": "css=p:nth-child(4)",
+      "targets": [
+        ["css=p:nth-child(4)", "css:finder"],
+        ["xpath=//p[@name='rendimento']", "xpath:attributes"],
+        ["xpath=//p[3]", "xpath:position"],
+        ["xpath=//p[contains(.,'Rendimento: R$ 40000')]", "xpath:innerText"]
+      ],
+      "value": "Rendimento: R$ 40000"
+    }, {
+      "id": "e62e0827-38d3-498f-925e-e8cb1aaa706f",
+      "comment": "",
+      "command": "click",
+      "target": "css=p:nth-child(5)",
+      "targets": [
+        ["css=p:nth-child(5)", "css:finder"],
+        ["xpath=//p[@name='aliquota']", "xpath:attributes"],
+        ["xpath=//p[4]", "xpath:position"],
+        ["xpath=//p[contains(.,'Alíquota: 15%')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "e8240e68-7fe8-421f-920b-be7d035cd756",
+      "comment": "",
+      "command": "click",
+      "target": "css=p:nth-child(5)",
+      "targets": [
+        ["css=p:nth-child(5)", "css:finder"],
+        ["xpath=//p[@name='aliquota']", "xpath:attributes"],
+        ["xpath=//p[4]", "xpath:position"],
+        ["xpath=//p[contains(.,'Alíquota: 15%')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "9d697341-37d9-4dd8-9d06-ac5284d0f0f9",
+      "comment": "",
+      "command": "verifyText",
+      "target": "css=p:nth-child(5)",
+      "targets": [
+        ["css=p:nth-child(5)", "css:finder"],
+        ["xpath=//p[@name='aliquota']", "xpath:attributes"],
+        ["xpath=//p[4]", "xpath:position"],
+        ["xpath=//p[contains(.,'Alíquota: 15%')]", "xpath:innerText"]
+      ],
+      "value": "Alíquota: 15%"
+    }, {
+      "id": "a798eed3-6529-402c-b1d8-10cd1e6cc0c4",
+      "comment": "",
+      "command": "click",
+      "target": "css=body",
+      "targets": [
+        ["css=body", "css:finder"],
+        ["xpath=//body", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "10dca1e3-7772-46c8-88fb-7596a738ee65",
+      "comment": "",
+      "command": "verifyText",
+      "target": "css=p:nth-child(6)",
+      "targets": [
+        ["css=p:nth-child(6)", "css:finder"],
+        ["xpath=//p[@name='imposto']", "xpath:attributes"],
+        ["xpath=//p[5]", "xpath:position"],
+        ["xpath=//p[contains(.,'Termos de Imposto: R$ 6000')]", "xpath:innerText"]
+      ],
+      "value": "Termos de Imposto: R$ 6000"
+    }]
+  }, {
+    "id": "31be8cfb-4234-4cb2-adc5-000eeb909bb8",
+    "name": "alíquota 22,5%",
+    "commands": [{
+      "id": "c8f25215-de7d-4ad5-8662-1ecfaf25f8e1",
+      "comment": "teste alíquota 22.5%",
+      "command": "open",
+      "target": "http://localhost/aliquota/view/index.php",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "a251bda9-9742-4379-b907-0cb09f2420ae",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "860x552",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "b80d8c8d-627a-4154-9017-aa3786acbc57",
+      "comment": "",
+      "command": "click",
+      "target": "id=nome",
+      "targets": [
+        ["id=nome", "id"],
+        ["name=nome", "name"],
+        ["css=#nome", "css:finder"],
+        ["xpath=//input[@id='nome']", "xpath:attributes"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "5fdcda66-de03-49ca-99d7-b72dbccdfa32",
+      "comment": "",
+      "command": "type",
+      "target": "id=nome",
+      "targets": [
+        ["id=nome", "id"],
+        ["name=nome", "name"],
+        ["css=#nome", "css:finder"],
+        ["xpath=//input[@id='nome']", "xpath:attributes"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": "isis"
+    }, {
+      "id": "c6fe2aaa-9085-4fab-8154-edc48f8c677d",
+      "comment": "",
+      "command": "click",
+      "target": "id=cpf",
+      "targets": [
+        ["id=cpf", "id"],
+        ["name=cpf", "name"],
+        ["css=#cpf", "css:finder"],
+        ["xpath=//input[@id='cpf']", "xpath:attributes"],
+        ["xpath=//input[2]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "421708cd-ad97-4246-8219-73c3a6482b48",
+      "comment": "",
+      "command": "type",
+      "target": "id=cpf",
+      "targets": [
+        ["id=nome", "id"],
+        ["name=nome", "name"],
+        ["css=#nome", "css:finder"],
+        ["xpath=//input[@id='nome']", "xpath:attributes"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": "542.294.368-66"
+    }, {
+      "id": "e4e5bdfc-da73-43b3-b10b-02155581fb69",
+      "comment": "",
+      "command": "click",
+      "target": "id=rendimento",
+      "targets": [
+        ["id=rendimento", "id"],
+        ["name=rendimento", "name"],
+        ["css=#rendimento", "css:finder"],
+        ["xpath=//input[@id='rendimento']", "xpath:attributes"],
+        ["xpath=//input[3]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "605bf870-3d80-4b10-ba88-8878a923c173",
+      "comment": "",
+      "command": "type",
+      "target": "id=rendimento",
+      "targets": [
+        ["id=rendimento", "id"],
+        ["name=rendimento", "name"],
+        ["css=#rendimento", "css:finder"],
+        ["xpath=//input[@id='rendimento']", "xpath:attributes"],
+        ["xpath=//input[3]", "xpath:position"]
+      ],
+      "value": "46000"
+    }, {
+      "id": "6d3401f5-ba0a-4bef-9c8c-8cd3e00028b2",
+      "comment": "",
+      "command": "click",
+      "target": "css=.button",
+      "targets": [
+        ["css=.button", "css:finder"],
+        ["xpath=//input[@value='Concluído']", "xpath:attributes"],
+        ["xpath=//input[4]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "93764f18-3518-4895-9369-2a7ff9a9888c",
+      "comment": "",
+      "command": "click",
+      "target": "css=p:nth-child(2)",
+      "targets": [
+        ["css=p:nth-child(2)", "css:finder"],
+        ["xpath=//p[@name='nome']", "xpath:attributes"],
+        ["xpath=//p", "xpath:position"],
+        ["xpath=//p[contains(.,'Nome: isis')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "cf9332ce-f89c-4340-a2af-3aee36ba0329",
+      "comment": "",
+      "command": "verifyText",
+      "target": "css=p:nth-child(2)",
+      "targets": [
+        ["css=p:nth-child(2)", "css:finder"],
+        ["xpath=//p[@name='nome']", "xpath:attributes"],
+        ["xpath=//p", "xpath:position"],
+        ["xpath=//p[contains(.,'Nome: isis')]", "xpath:innerText"]
+      ],
+      "value": "Nome: isis"
+    }, {
+      "id": "2f74f7db-4e27-4dc5-9b6a-f0db79206bb3",
+      "comment": "",
+      "command": "click",
+      "target": "css=p:nth-child(3)",
+      "targets": [
+        ["css=p:nth-child(3)", "css:finder"],
+        ["xpath=//p[@name='cpf']", "xpath:attributes"],
+        ["xpath=//p[2]", "xpath:position"],
+        ["xpath=//p[contains(.,'CPF: 542.294.368-66')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "ded31bf1-dab8-4bd8-8944-63ce851926b6",
+      "comment": "",
+      "command": "verifyText",
+      "target": "css=p:nth-child(3)",
+      "targets": [
+        ["css=p:nth-child(3)", "css:finder"],
+        ["xpath=//p[@name='cpf']", "xpath:attributes"],
+        ["xpath=//p[2]", "xpath:position"],
+        ["xpath=//p[contains(.,'CPF: 542.294.368-66')]", "xpath:innerText"]
+      ],
+      "value": "CPF: 542.294.368-66"
+    }, {
+      "id": "ecf6441b-8abc-47bb-88e8-e1aa7512d38d",
+      "comment": "",
+      "command": "click",
+      "target": "css=p:nth-child(4)",
+      "targets": [
+        ["css=p:nth-child(4)", "css:finder"],
+        ["xpath=//p[@name='rendimento']", "xpath:attributes"],
+        ["xpath=//p[3]", "xpath:position"],
+        ["xpath=//p[contains(.,'Rendimento: R$ 46000')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "64d09920-76bf-44c0-9107-09645071b10f",
+      "comment": "",
+      "command": "verifyText",
+      "target": "css=p:nth-child(4)",
+      "targets": [
+        ["css=p:nth-child(4)", "css:finder"],
+        ["xpath=//p[@name='rendimento']", "xpath:attributes"],
+        ["xpath=//p[3]", "xpath:position"],
+        ["xpath=//p[contains(.,'Rendimento: R$ 46000')]", "xpath:innerText"]
+      ],
+      "value": "Rendimento: R$ 46000"
+    }, {
+      "id": "3ebd8dd7-26d0-4969-b050-09aa6d677a98",
+      "comment": "",
+      "command": "click",
+      "target": "css=p:nth-child(5)",
+      "targets": [
+        ["css=p:nth-child(5)", "css:finder"],
+        ["xpath=//p[@name='aliquota']", "xpath:attributes"],
+        ["xpath=//p[4]", "xpath:position"],
+        ["xpath=//p[contains(.,'Alíquota: 22.5%')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "f062f822-90bf-4a53-8f70-da5a7118337e",
+      "comment": "",
+      "command": "verifyText",
+      "target": "css=p:nth-child(5)",
+      "targets": [
+        ["css=p:nth-child(5)", "css:finder"],
+        ["xpath=//p[@name='aliquota']", "xpath:attributes"],
+        ["xpath=//p[4]", "xpath:position"],
+        ["xpath=//p[contains(.,'Alíquota: 22.5%')]", "xpath:innerText"]
+      ],
+      "value": "Alíquota: 22.5%"
+    }, {
+      "id": "3f3d3e6a-eda3-499b-bafb-0410b8344f64",
+      "comment": "",
+      "command": "click",
+      "target": "css=p:nth-child(6)",
+      "targets": [
+        ["css=p:nth-child(6)", "css:finder"],
+        ["xpath=//p[@name='imposto']", "xpath:attributes"],
+        ["xpath=//p[5]", "xpath:position"],
+        ["xpath=//p[contains(.,'Termos de Imposto: R$ 10350')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "5cdd561a-3b8d-4cbc-8dd1-ea81b4380b8f",
+      "comment": "",
+      "command": "verifyText",
+      "target": "css=p:nth-child(6)",
+      "targets": [
+        ["css=p:nth-child(6)", "css:finder"],
+        ["xpath=//p[@name='imposto']", "xpath:attributes"],
+        ["xpath=//p[5]", "xpath:position"],
+        ["xpath=//p[contains(.,'Termos de Imposto: R$ 10350')]", "xpath:innerText"]
+      ],
+      "value": "Termos de Imposto: R$ 10350"
+    }]
+  }, {
+    "id": "56a1ab1a-f7f6-48f7-82a1-d6f16dc47de6",
+    "name": "alíquota 27,5%",
+    "commands": [{
+      "id": "6d868415-40ca-4e89-9e6d-1842efc85384",
+      "comment": "Teste alíquota 27.5%",
+      "command": "open",
+      "target": "http://localhost/aliquota/view/index.php",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "c6de9f20-a7e6-4e4f-955f-005c039a892b",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "860x552",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "bbb45804-9fc8-47c6-8b19-ce3bc964a785",
+      "comment": "",
+      "command": "click",
+      "target": "id=nome",
+      "targets": [
+        ["id=nome", "id"],
+        ["name=nome", "name"],
+        ["css=#nome", "css:finder"],
+        ["xpath=//input[@id='nome']", "xpath:attributes"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "90eda093-bd23-435e-9722-91a51ab31715",
+      "comment": "",
+      "command": "type",
+      "target": "id=nome",
+      "targets": [
+        ["id=nome", "id"],
+        ["name=nome", "name"],
+        ["css=#nome", "css:finder"],
+        ["xpath=//input[@id='nome']", "xpath:attributes"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": "isis"
+    }, {
+      "id": "9bcc7014-8cb2-4e93-a429-1561873bdeb9",
+      "comment": "",
+      "command": "click",
+      "target": "id=cpf",
+      "targets": [
+        ["id=cpf", "id"],
+        ["name=cpf", "name"],
+        ["css=#cpf", "css:finder"],
+        ["xpath=//input[@id='cpf']", "xpath:attributes"],
+        ["xpath=//input[2]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "de442f8c-803b-4fa6-875e-f871d08803f6",
+      "comment": "",
+      "command": "type",
+      "target": "id=cpf",
+      "targets": [
+        ["id=nome", "id"],
+        ["name=nome", "name"],
+        ["css=#nome", "css:finder"],
+        ["xpath=//input[@id='nome']", "xpath:attributes"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": "542.294.368-66"
+    }, {
+      "id": "5c7ee745-f19f-4381-ba7d-eb579d6c7469",
+      "comment": "",
+      "command": "click",
+      "target": "id=rendimento",
+      "targets": [
+        ["id=rendimento", "id"],
+        ["name=rendimento", "name"],
+        ["css=#rendimento", "css:finder"],
+        ["xpath=//input[@id='rendimento']", "xpath:attributes"],
+        ["xpath=//input[3]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "5890e0fb-ed0e-4b06-894f-daed2e52a04e",
+      "comment": "",
+      "command": "type",
+      "target": "id=rendimento",
+      "targets": [
+        ["id=rendimento", "id"],
+        ["name=rendimento", "name"],
+        ["css=#rendimento", "css:finder"],
+        ["xpath=//input[@id='rendimento']", "xpath:attributes"],
+        ["xpath=//input[3]", "xpath:position"]
+      ],
+      "value": "6000000"
+    }, {
+      "id": "2d5f7a36-c121-4b53-95ea-aa7fd863176b",
+      "comment": "",
+      "command": "click",
+      "target": "css=.button",
+      "targets": [
+        ["css=.button", "css:finder"],
+        ["xpath=//input[@value='Concluído']", "xpath:attributes"],
+        ["xpath=//input[4]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "6bcb9cd9-6e83-4204-ad9f-45623b131e13",
+      "comment": "",
+      "command": "click",
+      "target": "css=p:nth-child(2)",
+      "targets": [
+        ["css=p:nth-child(2)", "css:finder"],
+        ["xpath=//p[@name='nome']", "xpath:attributes"],
+        ["xpath=//p", "xpath:position"],
+        ["xpath=//p[contains(.,'Nome: isis')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "6cc53bc1-ba12-4c91-b4ea-7956050bf99c",
+      "comment": "",
+      "command": "verifyText",
+      "target": "css=p:nth-child(2)",
+      "targets": [
+        ["css=p:nth-child(2)", "css:finder"],
+        ["xpath=//p[@name='nome']", "xpath:attributes"],
+        ["xpath=//p", "xpath:position"],
+        ["xpath=//p[contains(.,'Nome: isis')]", "xpath:innerText"]
+      ],
+      "value": "Nome: isis"
+    }, {
+      "id": "375abd26-6c4a-4c92-ae7c-84b87fe3d3f9",
+      "comment": "",
+      "command": "click",
+      "target": "css=p:nth-child(3)",
+      "targets": [
+        ["css=p:nth-child(3)", "css:finder"],
+        ["xpath=//p[@name='cpf']", "xpath:attributes"],
+        ["xpath=//p[2]", "xpath:position"],
+        ["xpath=//p[contains(.,'CPF: 542.294.368-66')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "acc922fe-002b-471a-99c7-1be1c034b8d2",
+      "comment": "",
+      "command": "verifyText",
+      "target": "css=p:nth-child(3)",
+      "targets": [
+        ["css=p:nth-child(3)", "css:finder"],
+        ["xpath=//p[@name='cpf']", "xpath:attributes"],
+        ["xpath=//p[2]", "xpath:position"],
+        ["xpath=//p[contains(.,'CPF: 542.294.368-66')]", "xpath:innerText"]
+      ],
+      "value": "CPF: 542.294.368-66"
+    }, {
+      "id": "0db1ae7a-f60b-41b6-a41b-6f20f20632d4",
+      "comment": "",
+      "command": "click",
+      "target": "css=p:nth-child(4)",
+      "targets": [
+        ["css=p:nth-child(4)", "css:finder"],
+        ["xpath=//p[@name='rendimento']", "xpath:attributes"],
+        ["xpath=//p[3]", "xpath:position"],
+        ["xpath=//p[contains(.,'Rendimento: R$ 6000000')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "3af4b260-887c-4c07-93c1-5acda260c9ce",
+      "comment": "",
+      "command": "verifyText",
+      "target": "css=p:nth-child(4)",
+      "targets": [
+        ["css=p:nth-child(4)", "css:finder"],
+        ["xpath=//p[@name='rendimento']", "xpath:attributes"],
+        ["xpath=//p[3]", "xpath:position"],
+        ["xpath=//p[contains(.,'Rendimento: R$ 6000000')]", "xpath:innerText"]
+      ],
+      "value": "Rendimento: R$ 6000000"
+    }, {
+      "id": "3e0e4e16-92ed-4345-8e07-a2dc5b9237bd",
+      "comment": "",
+      "command": "click",
+      "target": "css=p:nth-child(5)",
+      "targets": [
+        ["css=p:nth-child(5)", "css:finder"],
+        ["xpath=//p[@name='aliquota']", "xpath:attributes"],
+        ["xpath=//p[4]", "xpath:position"],
+        ["xpath=//p[contains(.,'Alíquota: 27.5%')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "3c7e592d-a0f5-401d-9026-b8cfbe788148",
+      "comment": "",
+      "command": "verifyText",
+      "target": "css=p:nth-child(5)",
+      "targets": [
+        ["css=p:nth-child(5)", "css:finder"],
+        ["xpath=//p[@name='aliquota']", "xpath:attributes"],
+        ["xpath=//p[4]", "xpath:position"],
+        ["xpath=//p[contains(.,'Alíquota: 27.5%')]", "xpath:innerText"]
+      ],
+      "value": "Alíquota: 27.5%"
+    }, {
+      "id": "158eb38f-cbac-47d6-aa67-0615b5a09550",
+      "comment": "",
+      "command": "click",
+      "target": "css=p:nth-child(6)",
+      "targets": [
+        ["css=p:nth-child(6)", "css:finder"],
+        ["xpath=//p[@name='imposto']", "xpath:attributes"],
+        ["xpath=//p[5]", "xpath:position"],
+        ["xpath=//p[contains(.,'Termos de Imposto: R$ 1650000')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "54213ab8-1311-482f-b281-dc79dab94c09",
+      "comment": "",
+      "command": "verifyText",
+      "target": "css=p:nth-child(6)",
+      "targets": [
+        ["css=p:nth-child(6)", "css:finder"],
+        ["xpath=//p[@name='imposto']", "xpath:attributes"],
+        ["xpath=//p[5]", "xpath:position"],
+        ["xpath=//p[contains(.,'Termos de Imposto: R$ 1650000')]", "xpath:innerText"]
+      ],
+      "value": "Termos de Imposto: R$ 1650000"
+    }]
+  }, {
+    "id": "74fdf5e8-4fd5-4ae4-b70f-f0013f801033",
+    "name": "Nome inválido",
+    "commands": [{
+      "id": "913d0012-8bfd-408c-bee1-5b8bf5ea9a4e",
+      "comment": "",
+      "command": "open",
+      "target": "http://localhost/aliquota/view/index.php",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "86ab81ef-2200-4827-ad99-24b688fdb26c",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "860x552",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "5b35cd51-910d-43a1-b85b-b32e692702d6",
+      "comment": "",
+      "command": "click",
+      "target": "id=nome",
+      "targets": [
+        ["id=nome", "id"],
+        ["name=nome", "name"],
+        ["css=#nome", "css:finder"],
+        ["xpath=//input[@id='nome']", "xpath:attributes"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "6ab8a903-f2ac-4ca8-a44a-1373eaf8e8f4",
+      "comment": "",
+      "command": "type",
+      "target": "id=nome",
+      "targets": [
+        ["id=nome", "id"],
+        ["name=nome", "name"],
+        ["css=#nome", "css:finder"],
+        ["xpath=//input[@id='nome']", "xpath:attributes"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": "12345678"
+    }, {
+      "id": "7de99b73-87b3-4372-a495-eb41fbe2a357",
+      "comment": "",
+      "command": "click",
+      "target": "id=cpf",
+      "targets": [
+        ["id=cpf", "id"],
+        ["name=cpf", "name"],
+        ["css=#cpf", "css:finder"],
+        ["xpath=//input[@id='cpf']", "xpath:attributes"],
+        ["xpath=//input[2]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "5bd8558b-e13c-4058-ba6a-775d0f1bb867",
+      "comment": "",
+      "command": "type",
+      "target": "id=cpf",
+      "targets": [
+        ["id=nome", "id"],
+        ["name=nome", "name"],
+        ["css=#nome", "css:finder"],
+        ["xpath=//input[@id='nome']", "xpath:attributes"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": "542.294.368-66"
+    }, {
+      "id": "97006948-576c-4fba-900d-79de86089d39",
+      "comment": "",
+      "command": "click",
+      "target": "id=rendimento",
+      "targets": [
+        ["id=rendimento", "id"],
+        ["name=rendimento", "name"],
+        ["css=#rendimento", "css:finder"],
+        ["xpath=//input[@id='rendimento']", "xpath:attributes"],
+        ["xpath=//input[3]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "1299d39f-1615-48ab-93da-770d1340b7ec",
+      "comment": "",
+      "command": "type",
+      "target": "id=rendimento",
+      "targets": [
+        ["id=rendimento", "id"],
+        ["name=rendimento", "name"],
+        ["css=#rendimento", "css:finder"],
+        ["xpath=//input[@id='rendimento']", "xpath:attributes"],
+        ["xpath=//input[3]", "xpath:position"]
+      ],
+      "value": "2225"
+    }, {
+      "id": "d7132b2c-50cb-4842-a95f-772ed906690e",
+      "comment": "",
+      "command": "click",
+      "target": "css=.button",
+      "targets": [
+        ["css=.button", "css:finder"],
+        ["xpath=//input[@value='Concluído']", "xpath:attributes"],
+        ["xpath=//input[4]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "97f9c101-000a-440e-8118-aa170580344e",
+      "comment": "",
+      "command": "verifyText",
+      "target": "css=p:nth-child(2)",
+      "targets": [
+        ["css=p:nth-child(2)", "css:finder"],
+        ["xpath=//p[@name='nome']", "xpath:attributes"],
+        ["xpath=//p", "xpath:position"],
+        ["xpath=//p[contains(.,'Nome: 12345678')]", "xpath:innerText"]
+      ],
+      "value": "Nome: 12345678"
+    }, {
+      "id": "fd5af940-6a71-4884-8855-fc47e639db99",
+      "comment": "",
+      "command": "verifyText",
+      "target": "css=p:nth-child(3)",
+      "targets": [
+        ["css=p:nth-child(2)", "css:finder"],
+        ["xpath=//p[@name='nome']", "xpath:attributes"],
+        ["xpath=//p", "xpath:position"],
+        ["xpath=//p[contains(.,'Nome: 12345678')]", "xpath:innerText"]
+      ],
+      "value": "CPF: 542.294.368-66"
+    }, {
+      "id": "004d442f-0942-4983-b807-1420bfa21124",
+      "comment": "",
+      "command": "verifyText",
+      "target": "css=p:nth-child(4)",
+      "targets": [
+        ["css=p:nth-child(4)", "css:finder"],
+        ["xpath=//p[@name='rendimento']", "xpath:attributes"],
+        ["xpath=//p[3]", "xpath:position"],
+        ["xpath=//p[contains(.,'Rendimento: R$ 2225')]", "xpath:innerText"]
+      ],
+      "value": "Rendimento: R$ 2225"
+    }, {
+      "id": "4607d26d-a368-4e46-8b82-7b8d78ed3a0f",
+      "comment": "",
+      "command": "verifyText",
+      "target": "css=p:nth-child(5)",
+      "targets": [
+        ["css=p:nth-child(5)", "css:finder"],
+        ["xpath=//p[@name='aliquota']", "xpath:attributes"],
+        ["xpath=//p[4]", "xpath:position"],
+        ["xpath=//p[contains(.,'Alíquota: 0%')]", "xpath:innerText"]
+      ],
+      "value": "Alíquota: 0%"
+    }, {
+      "id": "49461023-b7d0-4fda-8309-a63d71d01d80",
+      "comment": "",
+      "command": "verifyText",
+      "target": "css=p:nth-child(6)",
+      "targets": [
+        ["css=p:nth-child(6)", "css:finder"],
+        ["xpath=//p[@name='imposto']", "xpath:attributes"],
+        ["xpath=//p[5]", "xpath:position"],
+        ["xpath=//p[contains(.,'Termos de Imposto: R$ 0')]", "xpath:innerText"]
+      ],
+      "value": "Termos de Imposto: R$ 0"
+    }]
+  }, {
+    "id": "71569fce-3fa8-4600-9651-ab6a20a8d9f5",
+    "name": "Campo Vazio",
+    "commands": [{
+      "id": "30fa3c88-b8ce-47dc-bd4d-49ae70e5df17",
+      "comment": "",
+      "command": "open",
+      "target": "http://localhost/aliquota/view/index.php",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "95742714-f408-477b-8a0f-a49e05db8ca4",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "860x552",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "5c230e5b-1338-4b2d-9692-f5961045841f",
+      "comment": "",
+      "command": "click",
+      "target": "css=.button",
+      "targets": [
+        ["css=.button", "css:finder"],
+        ["xpath=//input[@value='Concluído']", "xpath:attributes"],
+        ["xpath=//input[4]", "xpath:position"]
+      ],
+      "value": ""
+    }]
+  }, {
+    "id": "8db3589f-22e3-4d70-a0ac-03def3af5777",
+    "name": "Nome invalido",
+    "commands": [{
+      "id": "4320aa33-af33-490c-84f7-ec51835e3559",
+      "comment": "",
+      "command": "open",
+      "target": "http://localhost/aliquota/view/index.php",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "44a1c0ca-c844-4240-8b8a-34662101aa24",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1164x504",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "43db691d-4fac-4937-89e2-84fa77c3863b",
+      "comment": "",
+      "command": "click",
+      "target": "id=nome",
+      "targets": [
+        ["id=nome", "id"],
+        ["name=nome", "name"],
+        ["css=#nome", "css:finder"],
+        ["xpath=//input[@id='nome']", "xpath:attributes"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "77a340b1-42cd-410e-9803-3c6119cee33b",
+      "comment": "",
+      "command": "type",
+      "target": "id=nome",
+      "targets": [
+        ["id=nome", "id"],
+        ["name=nome", "name"],
+        ["css=#nome", "css:finder"],
+        ["xpath=//input[@id='nome']", "xpath:attributes"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": "123456"
+    }, {
+      "id": "05b0cfe8-f418-4123-92a0-c4b70a3c0faf",
+      "comment": "",
+      "command": "type",
+      "target": "id=cpf",
+      "targets": [
+        ["id=cpf", "id"],
+        ["name=cpf", "name"],
+        ["css=#cpf", "css:finder"],
+        ["xpath=//input[@id='cpf']", "xpath:attributes"],
+        ["xpath=//input[2]", "xpath:position"]
+      ],
+      "value": "54229436866"
+    }, {
+      "id": "a57b2f72-0431-4f89-ad97-5cd213fe5dd8",
+      "comment": "",
+      "command": "type",
+      "target": "id=rendimento",
+      "targets": [
+        ["id=rendimento", "id"],
+        ["name=rendimento", "name"],
+        ["css=#rendimento", "css:finder"],
+        ["xpath=//input[@id='rendimento']", "xpath:attributes"],
+        ["xpath=//input[3]", "xpath:position"]
+      ],
+      "value": "23456789"
+    }, {
+      "id": "c44da87e-a074-4857-bc86-2833e235879e",
+      "comment": "",
+      "command": "click",
+      "target": "css=.button",
+      "targets": [
+        ["css=.button", "css:finder"],
+        ["xpath=//input[@value='Concluído']", "xpath:attributes"],
+        ["xpath=//input[4]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "7f329593-5baa-43b0-b9eb-73e0dc65df95",
+      "comment": "",
+      "command": "click",
+      "target": "css=p:nth-child(2)",
+      "targets": [
+        ["css=p:nth-child(2)", "css:finder"],
+        ["xpath=//p[@name='nome']", "xpath:attributes"],
+        ["xpath=//p", "xpath:position"],
+        ["xpath=//p[contains(.,'Nome: 123456')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "eaf1039a-102a-477e-acd3-89aa59dedb7f",
+      "comment": "",
+      "command": "verifyText",
+      "target": "css=p:nth-child(2)",
+      "targets": [
+        ["css=p:nth-child(2)", "css:finder"],
+        ["xpath=//p[@name='nome']", "xpath:attributes"],
+        ["xpath=//p", "xpath:position"],
+        ["xpath=//p[contains(.,'Nome: 123456')]", "xpath:innerText"]
+      ],
+      "value": "Nome: 123456"
+    }, {
+      "id": "5824e535-35ae-4858-bc11-7c73214d88eb",
+      "comment": "",
+      "command": "click",
+      "target": "css=p:nth-child(3)",
+      "targets": [
+        ["css=p:nth-child(3)", "css:finder"],
+        ["xpath=//p[@name='cpf']", "xpath:attributes"],
+        ["xpath=//p[2]", "xpath:position"],
+        ["xpath=//p[contains(.,'CPF: 54229436866')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "e0c29f56-bf84-4587-bfa8-c87532cea679",
+      "comment": "",
+      "command": "verifyText",
+      "target": "css=p:nth-child(3)",
+      "targets": [
+        ["css=p:nth-child(3)", "css:finder"],
+        ["xpath=//p[@name='cpf']", "xpath:attributes"],
+        ["xpath=//p[2]", "xpath:position"],
+        ["xpath=//p[contains(.,'CPF: 54229436866')]", "xpath:innerText"]
+      ],
+      "value": "CPF: 54229436866"
+    }, {
+      "id": "c86d6416-b989-4a75-8ac9-10286a83c638",
+      "comment": "",
+      "command": "click",
+      "target": "css=p:nth-child(4)",
+      "targets": [
+        ["css=p:nth-child(4)", "css:finder"],
+        ["xpath=//p[@name='rendimento']", "xpath:attributes"],
+        ["xpath=//p[3]", "xpath:position"],
+        ["xpath=//p[contains(.,'Rendimento: R$ 23456789')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "8b50c8c0-1d8a-4cdc-baca-d60ec21be853",
+      "comment": "",
+      "command": "verifyText",
+      "target": "css=p:nth-child(4)",
+      "targets": [
+        ["css=p:nth-child(4)", "css:finder"],
+        ["xpath=//p[@name='rendimento']", "xpath:attributes"],
+        ["xpath=//p[3]", "xpath:position"],
+        ["xpath=//p[contains(.,'Rendimento: R$ 23456789')]", "xpath:innerText"]
+      ],
+      "value": "Rendimento: R$ 23456789"
+    }, {
+      "id": "9ca37431-f7a8-49bd-9f38-2309f7485fc3",
+      "comment": "",
+      "command": "click",
+      "target": "css=p:nth-child(5)",
+      "targets": [
+        ["css=p:nth-child(5)", "css:finder"],
+        ["xpath=//p[@name='aliquota']", "xpath:attributes"],
+        ["xpath=//p[4]", "xpath:position"],
+        ["xpath=//p[contains(.,'Alíquota: 27.5%')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "ec3efc85-1020-4ecd-8dee-f0cf0f980a12",
+      "comment": "",
+      "command": "verifyText",
+      "target": "css=p:nth-child(5)",
+      "targets": [
+        ["css=p:nth-child(5)", "css:finder"],
+        ["xpath=//p[@name='aliquota']", "xpath:attributes"],
+        ["xpath=//p[4]", "xpath:position"],
+        ["xpath=//p[contains(.,'Alíquota: 27.5%')]", "xpath:innerText"]
+      ],
+      "value": "Alíquota: 27.5%"
+    }, {
+      "id": "daf79a0a-203b-4468-a208-3cc1fd109446",
+      "comment": "",
+      "command": "click",
+      "target": "css=p:nth-child(6)",
+      "targets": [
+        ["css=p:nth-child(6)", "css:finder"],
+        ["xpath=//p[@name='imposto']", "xpath:attributes"],
+        ["xpath=//p[5]", "xpath:position"],
+        ["xpath=//p[contains(.,'Termos de Imposto: R$ 6450616.975')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "933fcf77-a533-4a31-8a83-6e15422147b1",
+      "comment": "",
+      "command": "verifyText",
+      "target": "css=p:nth-child(6)",
+      "targets": [
+        ["css=p:nth-child(6)", "css:finder"],
+        ["xpath=//p[@name='imposto']", "xpath:attributes"],
+        ["xpath=//p[5]", "xpath:position"],
+        ["xpath=//p[contains(.,'Termos de Imposto: R$ 6450616.975')]", "xpath:innerText"]
+      ],
+      "value": "Termos de Imposto: R$ 6450616.975"
+    }]
+  }, {
+    "id": "d12ce49b-5123-42e8-a5fc-341e4143ea73",
+    "name": "Login realizado com sucesso",
+    "commands": [{
+      "id": "60918d6b-8e85-4684-9861-0ee87fbcc145",
+      "comment": "",
+      "command": "open",
+      "target": "http://localhost/aliquota/view/index.php",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "db0d1c9f-4752-4ef8-bae0-1b9fbb1dc4d0",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "860x552",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "a1775416-619d-4eef-80f3-a2488d1d5537",
+      "comment": "",
+      "command": "click",
+      "target": "id=nome",
+      "targets": [
+        ["id=nome", "id"],
+        ["name=nome", "name"],
+        ["css=#nome", "css:finder"],
+        ["xpath=//input[@id='nome']", "xpath:attributes"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "8bfe5d5d-66a3-441d-80a4-eb4ebe32d84c",
+      "comment": "",
+      "command": "type",
+      "target": "id=nome",
+      "targets": [
+        ["id=nome", "id"],
+        ["name=nome", "name"],
+        ["css=#nome", "css:finder"],
+        ["xpath=//input[@id='nome']", "xpath:attributes"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": "Isis"
+    }, {
+      "id": "1d69b15e-6f67-403a-9311-69bf26a2fb00",
+      "comment": "",
+      "command": "click",
+      "target": "id=cpf",
+      "targets": [
+        ["id=cpf", "id"],
+        ["name=cpf", "name"],
+        ["css=#cpf", "css:finder"],
+        ["xpath=//input[@id='cpf']", "xpath:attributes"],
+        ["xpath=//input[2]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "c0ef8f9a-7e13-4cad-8de1-1730916c8f0f",
+      "comment": "",
+      "command": "type",
+      "target": "id=cpf",
+      "targets": [
+        ["id=cpf", "id"],
+        ["name=cpf", "name"],
+        ["css=#cpf", "css:finder"],
+        ["xpath=//input[@id='cpf']", "xpath:attributes"],
+        ["xpath=//input[2]", "xpath:position"]
+      ],
+      "value": "54229436866"
+    }, {
+      "id": "e9fc1916-efef-4380-8858-46bedd4495ae",
+      "comment": "",
+      "command": "click",
+      "target": "id=rendimento",
+      "targets": [
+        ["id=rendimento", "id"],
+        ["name=rendimento", "name"],
+        ["css=#rendimento", "css:finder"],
+        ["xpath=//input[@id='rendimento']", "xpath:attributes"],
+        ["xpath=//input[3]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "7e055684-875c-4091-a57a-1cbf60c529ff",
+      "comment": "",
+      "command": "type",
+      "target": "id=rendimento",
+      "targets": [
+        ["id=rendimento", "id"],
+        ["name=rendimento", "name"],
+        ["css=#rendimento", "css:finder"],
+        ["xpath=//input[@id='rendimento']", "xpath:attributes"],
+        ["xpath=//input[3]", "xpath:position"]
+      ],
+      "value": "12345678"
+    }, {
+      "id": "6c10cfc1-a176-42f6-a507-12258ad40361",
+      "comment": "",
+      "command": "click",
+      "target": "css=.button",
+      "targets": [
+        ["css=.button", "css:finder"],
+        ["xpath=//input[@value='Concluído']", "xpath:attributes"],
+        ["xpath=//input[4]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "3ed4743a-449c-4e71-b57a-3f30da5fdfb9",
+      "comment": "",
+      "command": "click",
+      "target": "css=p:nth-child(2)",
+      "targets": [
+        ["css=p:nth-child(2)", "css:finder"],
+        ["xpath=//p[@name='nome']", "xpath:attributes"],
+        ["xpath=//p", "xpath:position"],
+        ["xpath=//p[contains(.,'Nome: Isis')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "59fbffad-27ba-4023-992c-3f41cdfd322d",
+      "comment": "",
+      "command": "verifyText",
+      "target": "css=p:nth-child(2)",
+      "targets": [
+        ["css=p:nth-child(2)", "css:finder"],
+        ["xpath=//p[@name='nome']", "xpath:attributes"],
+        ["xpath=//p", "xpath:position"],
+        ["xpath=//p[contains(.,'Nome: Isis')]", "xpath:innerText"]
+      ],
+      "value": "Nome: Isis"
+    }, {
+      "id": "9b5f42fc-22dc-4cfd-85fb-764f1fb49d22",
+      "comment": "",
+      "command": "click",
+      "target": "css=p:nth-child(3)",
+      "targets": [
+        ["css=p:nth-child(3)", "css:finder"],
+        ["xpath=//p[@name='cpf']", "xpath:attributes"],
+        ["xpath=//p[2]", "xpath:position"],
+        ["xpath=//p[contains(.,'CPF: 54229436866')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "cc29fc15-58e9-4bef-94df-833e1bc1b9a9",
+      "comment": "",
+      "command": "verifyText",
+      "target": "css=p:nth-child(3)",
+      "targets": [
+        ["css=p:nth-child(3)", "css:finder"],
+        ["xpath=//p[@name='cpf']", "xpath:attributes"],
+        ["xpath=//p[2]", "xpath:position"],
+        ["xpath=//p[contains(.,'CPF: 54229436866')]", "xpath:innerText"]
+      ],
+      "value": "CPF: 54229436866"
+    }, {
+      "id": "fc1e14bc-6bcd-410e-94ec-6cca06283126",
+      "comment": "",
+      "command": "click",
+      "target": "css=p:nth-child(4)",
+      "targets": [
+        ["css=p:nth-child(4)", "css:finder"],
+        ["xpath=//p[@name='rendimento']", "xpath:attributes"],
+        ["xpath=//p[3]", "xpath:position"],
+        ["xpath=//p[contains(.,'Rendimento: R$ 12345678')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "32c49c33-ff08-412e-b202-ebf85d248eaf",
+      "comment": "",
+      "command": "verifyText",
+      "target": "css=p:nth-child(4)",
+      "targets": [
+        ["css=p:nth-child(4)", "css:finder"],
+        ["xpath=//p[@name='rendimento']", "xpath:attributes"],
+        ["xpath=//p[3]", "xpath:position"],
+        ["xpath=//p[contains(.,'Rendimento: R$ 12345678')]", "xpath:innerText"]
+      ],
+      "value": "Rendimento: R$ 12345678"
+    }, {
+      "id": "718d5b42-ee46-4594-a3a7-fb293b3c672f",
+      "comment": "",
+      "command": "click",
+      "target": "css=p:nth-child(5)",
+      "targets": [
+        ["css=p:nth-child(5)", "css:finder"],
+        ["xpath=//p[@name='aliquota']", "xpath:attributes"],
+        ["xpath=//p[4]", "xpath:position"],
+        ["xpath=//p[contains(.,'Alíquota: 27.5%')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "9247eedd-a2c3-436c-bc6d-481b4744064c",
+      "comment": "",
+      "command": "verifyText",
+      "target": "css=p:nth-child(5)",
+      "targets": [
+        ["css=p:nth-child(5)", "css:finder"],
+        ["xpath=//p[@name='aliquota']", "xpath:attributes"],
+        ["xpath=//p[4]", "xpath:position"],
+        ["xpath=//p[contains(.,'Alíquota: 27.5%')]", "xpath:innerText"]
+      ],
+      "value": "Alíquota: 27.5%"
+    }, {
+      "id": "e9937b90-7a33-48ba-8398-df76fe63c25b",
+      "comment": "",
+      "command": "click",
+      "target": "css=body",
+      "targets": [
+        ["css=body", "css:finder"],
+        ["xpath=//body", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "dbc48387-3f46-43a1-9a52-2008f7892713",
+      "comment": "",
+      "command": "verifyText",
+      "target": "css=p:nth-child(6)",
+      "targets": [
+        ["css=p:nth-child(6)", "css:finder"],
+        ["xpath=//p[@name='imposto']", "xpath:attributes"],
+        ["xpath=//p[5]", "xpath:position"],
+        ["xpath=//p[contains(.,'Termos de Imposto: R$ 3395061.45')]", "xpath:innerText"]
+      ],
+      "value": "Termos de Imposto: R$ 3395061.45"
+    }]
+  }, {
+    "id": "b05c534d-a398-4f1e-993d-0e22b8b4dbaa",
+    "name": "CPF válido",
+    "commands": [{
+      "id": "b50f8375-72cd-48e3-ba49-518548aa6eed",
+      "comment": "",
+      "command": "open",
+      "target": "http://localhost/aliquota/view/index.php",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "5a645139-f5b3-4a52-8403-61f6456503ea",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "860x552",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "96de6c26-102a-4ae0-aaaa-eab55e83b37c",
+      "comment": "",
+      "command": "click",
+      "target": "id=nome",
+      "targets": [
+        ["id=nome", "id"],
+        ["name=nome", "name"],
+        ["css=#nome", "css:finder"],
+        ["xpath=//input[@id='nome']", "xpath:attributes"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "f454cec9-8690-4d71-b318-a88e25b8d8b2",
+      "comment": "",
+      "command": "type",
+      "target": "id=nome",
+      "targets": [
+        ["id=nome", "id"],
+        ["name=nome", "name"],
+        ["css=#nome", "css:finder"],
+        ["xpath=//input[@id='nome']", "xpath:attributes"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": "Isis"
+    }, {
+      "id": "2faa7fe0-fafc-482e-8c59-30e83aa16bd1",
+      "comment": "",
+      "command": "click",
+      "target": "id=cpf",
+      "targets": [
+        ["id=cpf", "id"],
+        ["name=cpf", "name"],
+        ["css=#cpf", "css:finder"],
+        ["xpath=//input[@id='cpf']", "xpath:attributes"],
+        ["xpath=//input[2]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "30e3bc26-bbf5-4920-91a4-991357d34bad",
+      "comment": "",
+      "command": "type",
+      "target": "id=cpf",
+      "targets": [
+        ["id=cpf", "id"],
+        ["name=cpf", "name"],
+        ["css=#cpf", "css:finder"],
+        ["xpath=//input[@id='cpf']", "xpath:attributes"],
+        ["xpath=//input[2]", "xpath:position"]
+      ],
+      "value": "54229436866"
+    }, {
+      "id": "f4a143d9-c288-4ed7-a665-02ceb4e6ea59",
+      "comment": "",
+      "command": "click",
+      "target": "id=rendimento",
+      "targets": [
+        ["id=rendimento", "id"],
+        ["name=rendimento", "name"],
+        ["css=#rendimento", "css:finder"],
+        ["xpath=//input[@id='rendimento']", "xpath:attributes"],
+        ["xpath=//input[3]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "af0e8800-0ed1-4205-8897-60d59ad45002",
+      "comment": "",
+      "command": "type",
+      "target": "id=rendimento",
+      "targets": [
+        ["id=rendimento", "id"],
+        ["name=rendimento", "name"],
+        ["css=#rendimento", "css:finder"],
+        ["xpath=//input[@id='rendimento']", "xpath:attributes"],
+        ["xpath=//input[3]", "xpath:position"]
+      ],
+      "value": "1234567"
+    }, {
+      "id": "e95d8467-a108-4fea-8500-2fd781296dff",
+      "comment": "",
+      "command": "click",
+      "target": "css=.button",
+      "targets": [
+        ["css=.button", "css:finder"],
+        ["xpath=//input[@value='Concluído']", "xpath:attributes"],
+        ["xpath=//input[4]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "c7581add-2433-4586-83c6-a8530549e9c3",
+      "comment": "",
+      "command": "click",
+      "target": "css=p:nth-child(2)",
+      "targets": [
+        ["css=p:nth-child(2)", "css:finder"],
+        ["xpath=//p[@name='nome']", "xpath:attributes"],
+        ["xpath=//p", "xpath:position"],
+        ["xpath=//p[contains(.,'Nome: Isis')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "8f0e3680-2aae-4770-b36f-d6cf8d7bfcb3",
+      "comment": "",
+      "command": "verifyText",
+      "target": "css=p:nth-child(2)",
+      "targets": [
+        ["css=p:nth-child(2)", "css:finder"],
+        ["xpath=//p[@name='nome']", "xpath:attributes"],
+        ["xpath=//p", "xpath:position"],
+        ["xpath=//p[contains(.,'Nome: Isis')]", "xpath:innerText"]
+      ],
+      "value": "Nome: Isis"
+    }, {
+      "id": "450448b8-a18b-4092-a5b8-a00f2474efc3",
+      "comment": "",
+      "command": "click",
+      "target": "css=p:nth-child(3)",
+      "targets": [
+        ["css=p:nth-child(3)", "css:finder"],
+        ["xpath=//p[@name='cpf']", "xpath:attributes"],
+        ["xpath=//p[2]", "xpath:position"],
+        ["xpath=//p[contains(.,'CPF: 54229436866')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "c097f3be-2194-4b5b-8e4e-3468df2f3df0",
+      "comment": "",
+      "command": "verifyText",
+      "target": "css=p:nth-child(3)",
+      "targets": [
+        ["css=p:nth-child(3)", "css:finder"],
+        ["xpath=//p[@name='cpf']", "xpath:attributes"],
+        ["xpath=//p[2]", "xpath:position"],
+        ["xpath=//p[contains(.,'CPF: 54229436866')]", "xpath:innerText"]
+      ],
+      "value": "CPF: 54229436866"
+    }, {
+      "id": "8a822d7d-20af-483b-9861-449f9293624e",
+      "comment": "",
+      "command": "click",
+      "target": "css=p:nth-child(4)",
+      "targets": [
+        ["css=p:nth-child(4)", "css:finder"],
+        ["xpath=//p[@name='rendimento']", "xpath:attributes"],
+        ["xpath=//p[3]", "xpath:position"],
+        ["xpath=//p[contains(.,'Rendimento: R$ 1234567')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "e5a517a1-f5ec-4dec-bd23-b96912d4ca0d",
+      "comment": "",
+      "command": "verifyText",
+      "target": "css=p:nth-child(4)",
+      "targets": [
+        ["css=p:nth-child(4)", "css:finder"],
+        ["xpath=//p[@name='rendimento']", "xpath:attributes"],
+        ["xpath=//p[3]", "xpath:position"],
+        ["xpath=//p[contains(.,'Rendimento: R$ 1234567')]", "xpath:innerText"]
+      ],
+      "value": "Rendimento: R$ 1234567"
+    }, {
+      "id": "ab587c03-22b0-4ac3-8bf4-ad80ca25be79",
+      "comment": "",
+      "command": "click",
+      "target": "css=p:nth-child(5)",
+      "targets": [
+        ["css=p:nth-child(5)", "css:finder"],
+        ["xpath=//p[@name='aliquota']", "xpath:attributes"],
+        ["xpath=//p[4]", "xpath:position"],
+        ["xpath=//p[contains(.,'Alíquota: 27.5%')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "6fd2508c-1ede-49c3-b091-ca1d4812491f",
+      "comment": "",
+      "command": "verifyText",
+      "target": "css=p:nth-child(5)",
+      "targets": [
+        ["css=p:nth-child(5)", "css:finder"],
+        ["xpath=//p[@name='aliquota']", "xpath:attributes"],
+        ["xpath=//p[4]", "xpath:position"],
+        ["xpath=//p[contains(.,'Alíquota: 27.5%')]", "xpath:innerText"]
+      ],
+      "value": "Alíquota: 27.5%"
+    }, {
+      "id": "ef886177-ce26-446a-b873-5aae9ab01d82",
+      "comment": "",
+      "command": "click",
+      "target": "css=p:nth-child(6)",
+      "targets": [
+        ["css=p:nth-child(6)", "css:finder"],
+        ["xpath=//p[@name='imposto']", "xpath:attributes"],
+        ["xpath=//p[5]", "xpath:position"],
+        ["xpath=//p[contains(.,'Termos de Imposto: R$ 339505.925')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "24a2ee73-ff23-424c-a4c9-0d2e6cc49a34",
+      "comment": "",
+      "command": "verifyText",
+      "target": "css=p:nth-child(6)",
+      "targets": [
+        ["css=p:nth-child(6)", "css:finder"],
+        ["xpath=//p[@name='imposto']", "xpath:attributes"],
+        ["xpath=//p[5]", "xpath:position"],
+        ["xpath=//p[contains(.,'Termos de Imposto: R$ 339505.925')]", "xpath:innerText"]
+      ],
+      "value": "Termos de Imposto: R$ 339505.925"
+    }]
+  }, {
+    "id": "0308f908-556d-4e2b-b8fe-5f425f110165",
+    "name": "CPF inválido",
+    "commands": [{
+      "id": "cce6a01a-5991-48cc-b33b-93d3d860c924",
+      "comment": "",
+      "command": "open",
+      "target": "http://localhost/aliquota/view/index.php",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "2d52f371-c23c-48fb-affd-0664be0ba91a",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "860x552",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "1a993176-f002-4974-a252-94ce2f91617c",
+      "comment": "",
+      "command": "click",
+      "target": "id=nome",
+      "targets": [
+        ["id=nome", "id"],
+        ["name=nome", "name"],
+        ["css=#nome", "css:finder"],
+        ["xpath=//input[@id='nome']", "xpath:attributes"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "e47df220-6751-488b-bbb4-727259c6f41c",
+      "comment": "",
+      "command": "type",
+      "target": "id=nome",
+      "targets": [
+        ["id=nome", "id"],
+        ["name=nome", "name"],
+        ["css=#nome", "css:finder"],
+        ["xpath=//input[@id='nome']", "xpath:attributes"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": "Isis"
+    }, {
+      "id": "0bb98384-2992-4013-b4a8-5a6300f29464",
+      "comment": "",
+      "command": "click",
+      "target": "id=cpf",
+      "targets": [
+        ["id=cpf", "id"],
+        ["name=cpf", "name"],
+        ["css=#cpf", "css:finder"],
+        ["xpath=//input[@id='cpf']", "xpath:attributes"],
+        ["xpath=//input[2]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "36ec41eb-2959-47e8-8a47-71ee8c7e1c7d",
+      "comment": "",
+      "command": "type",
+      "target": "id=cpf",
+      "targets": [
+        ["id=cpf", "id"],
+        ["name=cpf", "name"],
+        ["css=#cpf", "css:finder"],
+        ["xpath=//input[@id='cpf']", "xpath:attributes"],
+        ["xpath=//input[2]", "xpath:position"]
+      ],
+      "value": "123456"
+    }, {
+      "id": "8357980c-6214-41e4-a682-195dd4ba198c",
+      "comment": "",
+      "command": "click",
+      "target": "id=rendimento",
+      "targets": [
+        ["id=rendimento", "id"],
+        ["name=rendimento", "name"],
+        ["css=#rendimento", "css:finder"],
+        ["xpath=//input[@id='rendimento']", "xpath:attributes"],
+        ["xpath=//input[3]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "13fe5d0c-85df-44e6-8c7d-268fbe17ea2d",
+      "comment": "",
+      "command": "type",
+      "target": "id=rendimento",
+      "targets": [
+        ["id=rendimento", "id"],
+        ["name=rendimento", "name"],
+        ["css=#rendimento", "css:finder"],
+        ["xpath=//input[@id='rendimento']", "xpath:attributes"],
+        ["xpath=//input[3]", "xpath:position"]
+      ],
+      "value": "123456789"
+    }, {
+      "id": "85322fd8-1925-44f3-aa4f-71738d678b54",
+      "comment": "",
+      "command": "click",
+      "target": "css=.button",
+      "targets": [
+        ["css=.button", "css:finder"],
+        ["xpath=//input[@value='Concluído']", "xpath:attributes"],
+        ["xpath=//input[4]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "66eab4fc-f7f8-46a8-b3ed-a28540e8289d",
+      "comment": "",
+      "command": "click",
+      "target": "css=.campo",
+      "targets": [
+        ["css=.campo", "css:finder"],
+        ["xpath=//div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "4870624e-ec33-43d0-a891-e939b1e48c5e",
+      "comment": "",
+      "command": "click",
+      "target": "id=nome",
+      "targets": [
+        ["id=nome", "id"],
+        ["name=nome", "name"],
+        ["css=#nome", "css:finder"],
+        ["xpath=//input[@id='nome']", "xpath:attributes"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "b1c04613-66a8-4894-ba90-1cf977e402d6",
+      "comment": "",
+      "command": "click",
+      "target": "css=.campo",
+      "targets": [
+        ["css=.campo", "css:finder"],
+        ["xpath=//div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "b94a90f5-f6b9-4dc0-8777-dbb8e4eea3e4",
+      "comment": "",
+      "command": "click",
+      "target": "id=nome",
+      "targets": [
+        ["id=nome", "id"],
+        ["name=nome", "name"],
+        ["css=#nome", "css:finder"],
+        ["xpath=//input[@id='nome']", "xpath:attributes"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "afa13d5e-81e7-452c-b47f-01f446195cbc",
+      "comment": "",
+      "command": "type",
+      "target": "id=nome",
+      "targets": [
+        ["id=nome", "id"],
+        ["name=nome", "name"],
+        ["css=#nome", "css:finder"],
+        ["xpath=//input[@id='nome']", "xpath:attributes"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": "Isis"
+    }, {
+      "id": "d44e3798-c67c-4643-9684-53892a8914ee",
+      "comment": "",
+      "command": "type",
+      "target": "id=cpf",
+      "targets": [
+        ["id=cpf", "id"],
+        ["name=cpf", "name"],
+        ["css=#cpf", "css:finder"],
+        ["xpath=//input[@id='cpf']", "xpath:attributes"],
+        ["xpath=//input[2]", "xpath:position"]
+      ],
+      "value": "123456"
+    }, {
+      "id": "1d04b6e3-7077-4736-a161-f2a31048dba0",
+      "comment": "",
+      "command": "type",
+      "target": "id=rendimento",
+      "targets": [
+        ["id=rendimento", "id"],
+        ["name=rendimento", "name"],
+        ["css=#rendimento", "css:finder"],
+        ["xpath=//input[@id='rendimento']", "xpath:attributes"],
+        ["xpath=//input[3]", "xpath:position"]
+      ],
+      "value": "1234567890"
+    }, {
+      "id": "801ee478-ce96-4ab7-a82a-8a642ebe908c",
+      "comment": "",
+      "command": "click",
+      "target": "id=nome",
+      "targets": [
+        ["id=nome", "id"],
+        ["name=nome", "name"],
+        ["css=#nome", "css:finder"],
+        ["xpath=//input[@id='nome']", "xpath:attributes"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "293c6f4c-5192-4f34-8579-71a9cf4703e4",
+      "comment": "",
+      "command": "click",
+      "target": "css=.button",
+      "targets": [
+        ["css=.button", "css:finder"],
+        ["xpath=//input[@value='Concluído']", "xpath:attributes"],
+        ["xpath=//input[4]", "xpath:position"]
+      ],
+      "value": ""
+    }]
+  }, {
+    "id": "affc3c37-085f-41be-bb97-e82625aa0268",
+    "name": "Valor de rendimento válido",
+    "commands": [{
+      "id": "72b4fcb9-1379-43ea-a79c-f0982c60545a",
+      "comment": "",
+      "command": "open",
+      "target": "http://localhost/aliquota/view/index.php",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "53dfe301-96ab-49eb-9a51-fa10c8998aba",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "860x552",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "6437a8f1-09dc-448a-8098-626c5a28f4f5",
+      "comment": "",
+      "command": "click",
+      "target": "id=nome",
+      "targets": [
+        ["id=nome", "id"],
+        ["name=nome", "name"],
+        ["css=#nome", "css:finder"],
+        ["xpath=//input[@id='nome']", "xpath:attributes"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "234f0ae2-7ede-494d-bf54-50dbdff73ee6",
+      "comment": "",
+      "command": "type",
+      "target": "id=nome",
+      "targets": [
+        ["id=nome", "id"],
+        ["name=nome", "name"],
+        ["css=#nome", "css:finder"],
+        ["xpath=//input[@id='nome']", "xpath:attributes"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": "Isis"
+    }, {
+      "id": "75eb330a-f088-4b3e-b028-61d4647a8eb1",
+      "comment": "",
+      "command": "click",
+      "target": "id=cpf",
+      "targets": [
+        ["id=cpf", "id"],
+        ["name=cpf", "name"],
+        ["css=#cpf", "css:finder"],
+        ["xpath=//input[@id='cpf']", "xpath:attributes"],
+        ["xpath=//input[2]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "bac3eb46-e211-4ce9-9fa2-02c850697904",
+      "comment": "",
+      "command": "type",
+      "target": "id=cpf",
+      "targets": [
+        ["id=cpf", "id"],
+        ["name=cpf", "name"],
+        ["css=#cpf", "css:finder"],
+        ["xpath=//input[@id='cpf']", "xpath:attributes"],
+        ["xpath=//input[2]", "xpath:position"]
+      ],
+      "value": "54229436866"
+    }, {
+      "id": "630e40d1-2459-4077-8110-995dbea1fa01",
+      "comment": "",
+      "command": "click",
+      "target": "id=rendimento",
+      "targets": [
+        ["id=rendimento", "id"],
+        ["name=rendimento", "name"],
+        ["css=#rendimento", "css:finder"],
+        ["xpath=//input[@id='rendimento']", "xpath:attributes"],
+        ["xpath=//input[3]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "90f648ae-f8a8-40cf-a529-4771814510c1",
+      "comment": "",
+      "command": "type",
+      "target": "id=rendimento",
+      "targets": [
+        ["id=rendimento", "id"],
+        ["name=rendimento", "name"],
+        ["css=#rendimento", "css:finder"],
+        ["xpath=//input[@id='rendimento']", "xpath:attributes"],
+        ["xpath=//input[3]", "xpath:position"]
+      ],
+      "value": "1234567"
+    }, {
+      "id": "0ad4bb62-5fa8-4c9e-9b18-f17e5529b34a",
+      "comment": "",
+      "command": "click",
+      "target": "css=.button",
+      "targets": [
+        ["css=.button", "css:finder"],
+        ["xpath=//input[@value='Concluído']", "xpath:attributes"],
+        ["xpath=//input[4]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "d26a92bd-b72b-4ee1-818e-b296c7c94ca2",
+      "comment": "",
+      "command": "click",
+      "target": "css=p:nth-child(2)",
+      "targets": [
+        ["css=p:nth-child(2)", "css:finder"],
+        ["xpath=//p[@name='nome']", "xpath:attributes"],
+        ["xpath=//p", "xpath:position"],
+        ["xpath=//p[contains(.,'Nome: Isis')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "b895fdf6-9762-4499-ac48-5fd85e192583",
+      "comment": "",
+      "command": "verifyText",
+      "target": "css=p:nth-child(2)",
+      "targets": [
+        ["css=p:nth-child(2)", "css:finder"],
+        ["xpath=//p[@name='nome']", "xpath:attributes"],
+        ["xpath=//p", "xpath:position"],
+        ["xpath=//p[contains(.,'Nome: Isis')]", "xpath:innerText"]
+      ],
+      "value": "Nome: Isis"
+    }, {
+      "id": "03c56a8d-04b7-4bb2-b3ac-031ae4e9ee02",
+      "comment": "",
+      "command": "click",
+      "target": "css=p:nth-child(3)",
+      "targets": [
+        ["css=p:nth-child(3)", "css:finder"],
+        ["xpath=//p[@name='cpf']", "xpath:attributes"],
+        ["xpath=//p[2]", "xpath:position"],
+        ["xpath=//p[contains(.,'CPF: 54229436866')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "6ddc6327-4b5a-419b-82e8-8f5473bf3cb6",
+      "comment": "",
+      "command": "verifyText",
+      "target": "css=p:nth-child(3)",
+      "targets": [
+        ["css=p:nth-child(3)", "css:finder"],
+        ["xpath=//p[@name='cpf']", "xpath:attributes"],
+        ["xpath=//p[2]", "xpath:position"],
+        ["xpath=//p[contains(.,'CPF: 54229436866')]", "xpath:innerText"]
+      ],
+      "value": "CPF: 54229436866"
+    }, {
+      "id": "ef2427ea-00b1-4c26-9a08-218319d8b0aa",
+      "comment": "",
+      "command": "click",
+      "target": "css=p:nth-child(4)",
+      "targets": [
+        ["css=p:nth-child(4)", "css:finder"],
+        ["xpath=//p[@name='rendimento']", "xpath:attributes"],
+        ["xpath=//p[3]", "xpath:position"],
+        ["xpath=//p[contains(.,'Rendimento: R$ 1234567')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "c2f82526-3576-41b8-91e3-a185a6550277",
+      "comment": "",
+      "command": "verifyText",
+      "target": "css=p:nth-child(4)",
+      "targets": [
+        ["css=p:nth-child(4)", "css:finder"],
+        ["xpath=//p[@name='rendimento']", "xpath:attributes"],
+        ["xpath=//p[3]", "xpath:position"],
+        ["xpath=//p[contains(.,'Rendimento: R$ 1234567')]", "xpath:innerText"]
+      ],
+      "value": "Rendimento: R$ 1234567"
+    }, {
+      "id": "fb7ce0f6-f45e-4de8-8d3f-b1d3fc09da10",
+      "comment": "",
+      "command": "click",
+      "target": "css=p:nth-child(5)",
+      "targets": [
+        ["css=p:nth-child(5)", "css:finder"],
+        ["xpath=//p[@name='aliquota']", "xpath:attributes"],
+        ["xpath=//p[4]", "xpath:position"],
+        ["xpath=//p[contains(.,'Alíquota: 27.5%')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "2d21f955-037b-4bae-b3ad-5b350843b10a",
+      "comment": "",
+      "command": "verifyText",
+      "target": "css=p:nth-child(5)",
+      "targets": [
+        ["css=p:nth-child(5)", "css:finder"],
+        ["xpath=//p[@name='aliquota']", "xpath:attributes"],
+        ["xpath=//p[4]", "xpath:position"],
+        ["xpath=//p[contains(.,'Alíquota: 27.5%')]", "xpath:innerText"]
+      ],
+      "value": "Alíquota: 27.5%"
+    }, {
+      "id": "c9883c5e-1377-4283-9593-f67a72bc3778",
+      "comment": "",
+      "command": "click",
+      "target": "css=p:nth-child(6)",
+      "targets": [
+        ["css=p:nth-child(6)", "css:finder"],
+        ["xpath=//p[@name='imposto']", "xpath:attributes"],
+        ["xpath=//p[5]", "xpath:position"],
+        ["xpath=//p[contains(.,'Termos de Imposto: R$ 339505.925')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "1351638d-0505-4a38-a6e8-6c056da879e5",
+      "comment": "",
+      "command": "verifyText",
+      "target": "css=p:nth-child(6)",
+      "targets": [
+        ["css=p:nth-child(6)", "css:finder"],
+        ["xpath=//p[@name='imposto']", "xpath:attributes"],
+        ["xpath=//p[5]", "xpath:position"],
+        ["xpath=//p[contains(.,'Termos de Imposto: R$ 339505.925')]", "xpath:innerText"]
+      ],
+      "value": "Termos de Imposto: R$ 339505.925"
+    }]
+  }, {
+    "id": "1af33f56-1d44-4584-9659-da00f10c2797",
+    "name": "Valor de rendimento inválido",
+    "commands": [{
+      "id": "c15efb13-6042-4bd8-b294-c67598d9bb2c",
+      "comment": "",
+      "command": "open",
+      "target": "http://localhost/aliquota/view/index.php",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "664d91ea-db58-4aa6-bcd8-46998cc274b9",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "860x552",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "a440c8ed-fbe2-4385-98e7-691a9197013b",
+      "comment": "",
+      "command": "click",
+      "target": "id=nome",
+      "targets": [
+        ["id=nome", "id"],
+        ["name=nome", "name"],
+        ["css=#nome", "css:finder"],
+        ["xpath=//input[@id='nome']", "xpath:attributes"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "ff1acb00-3b37-46fa-aa62-6829278bb4e8",
+      "comment": "",
+      "command": "type",
+      "target": "id=nome",
+      "targets": [
+        ["id=nome", "id"],
+        ["name=nome", "name"],
+        ["css=#nome", "css:finder"],
+        ["xpath=//input[@id='nome']", "xpath:attributes"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": "A"
+    }, {
+      "id": "abe4015a-a93f-44cc-8b0c-402ba428c24c",
+      "comment": "",
+      "command": "click",
+      "target": "id=cpf",
+      "targets": [
+        ["id=cpf", "id"],
+        ["name=cpf", "name"],
+        ["css=#cpf", "css:finder"],
+        ["xpath=//input[@id='cpf']", "xpath:attributes"],
+        ["xpath=//input[2]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "38e84654-cacb-4ccf-ac4b-223bf6885521",
+      "comment": "",
+      "command": "type",
+      "target": "id=cpf",
+      "targets": [
+        ["id=cpf", "id"],
+        ["name=cpf", "name"],
+        ["css=#cpf", "css:finder"],
+        ["xpath=//input[@id='cpf']", "xpath:attributes"],
+        ["xpath=//input[2]", "xpath:position"]
+      ],
+      "value": "54229436866"
+    }, {
+      "id": "b6ed0b56-ceb5-4ce7-bba1-8a2dc27a961b",
+      "comment": "",
+      "command": "click",
+      "target": "id=rendimento",
+      "targets": [
+        ["id=rendimento", "id"],
+        ["name=rendimento", "name"],
+        ["css=#rendimento", "css:finder"],
+        ["xpath=//input[@id='rendimento']", "xpath:attributes"],
+        ["xpath=//input[3]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "7b8d029b-a1e7-4e83-bd67-32d52793beaf",
+      "comment": "",
+      "command": "click",
+      "target": "id=rendimento",
+      "targets": [
+        ["id=rendimento", "id"],
+        ["name=rendimento", "name"],
+        ["css=#rendimento", "css:finder"],
+        ["xpath=//input[@id='rendimento']", "xpath:attributes"],
+        ["xpath=//input[3]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "d9c9a12b-ce95-406b-a7d5-ac2c62a71844",
+      "comment": "",
+      "command": "click",
+      "target": "id=rendimento",
+      "targets": [
+        ["id=rendimento", "id"],
+        ["name=rendimento", "name"],
+        ["css=#rendimento", "css:finder"],
+        ["xpath=//input[@id='rendimento']", "xpath:attributes"],
+        ["xpath=//input[3]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "bbf4cb91-8e82-4b02-9ad4-e305e51fe457",
+      "comment": "",
+      "command": "click",
+      "target": "id=nome",
+      "targets": [
+        ["id=nome", "id"],
+        ["name=nome", "name"],
+        ["css=#nome", "css:finder"],
+        ["xpath=//input[@id='nome']", "xpath:attributes"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "4f0e31d8-8752-4c19-a5b4-ba53b0905c74",
+      "comment": "",
+      "command": "click",
+      "target": "id=rendimento",
+      "targets": [
+        ["id=rendimento", "id"],
+        ["name=rendimento", "name"],
+        ["css=#rendimento", "css:finder"],
+        ["xpath=//input[@id='rendimento']", "xpath:attributes"],
+        ["xpath=//input[3]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "643cde2c-4f59-4fb7-9e0e-8882de7c4919",
+      "comment": "",
+      "command": "click",
+      "target": "id=rendimento",
+      "targets": [
+        ["id=rendimento", "id"],
+        ["name=rendimento", "name"],
+        ["css=#rendimento", "css:finder"],
+        ["xpath=//input[@id='rendimento']", "xpath:attributes"],
+        ["xpath=//input[3]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "0d7071b4-a94e-4a9a-8c50-3964a5216a69",
+      "comment": "",
+      "command": "click",
+      "target": "css=.button",
+      "targets": [
+        ["css=.button", "css:finder"],
+        ["xpath=//input[@value='Concluído']", "xpath:attributes"],
+        ["xpath=//input[4]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "ff0e22e2-6080-4f46-974d-3bd19f1fd920",
+      "comment": "",
+      "command": "click",
+      "target": "id=rendimento",
+      "targets": [
+        ["id=rendimento", "id"],
+        ["name=rendimento", "name"],
+        ["css=#rendimento", "css:finder"],
+        ["xpath=//input[@id='rendimento']", "xpath:attributes"],
+        ["xpath=//input[3]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "8333494e-5c79-4484-bb3a-c2721bd23053",
+      "comment": "",
+      "command": "verifyValue",
+      "target": "id=rendimento",
+      "targets": [
+        ["id=rendimento", "id"],
+        ["name=rendimento", "name"],
+        ["css=#rendimento", "css:finder"],
+        ["xpath=//input[@id='rendimento']", "xpath:attributes"],
+        ["xpath=//input[3]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "40fa42e7-1b14-462a-99f6-1ad0075a5230",
+      "comment": "",
+      "command": "click",
+      "target": "css=.button",
+      "targets": [
+        ["css=.button", "css:finder"],
+        ["xpath=//input[@value='Concluído']", "xpath:attributes"],
+        ["xpath=//input[4]", "xpath:position"]
+      ],
+      "value": ""
+    }]
+  }, {
+    "id": "3e6264f8-ef10-442d-9ec9-6c952b74aae7",
+    "name": "Unidade Maior",
+    "commands": [{
+      "id": "1065b82a-3ed2-44e5-bd75-91d5d7e99d3f",
+      "comment": "",
+      "command": "open",
+      "target": "http://localhost/aliquota/view/index.php",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "d5acf2ce-73e6-483f-9d43-e45e31ed11c6",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "860x552",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "3b003488-43f1-46ee-828d-bcfd6e0ed4ac",
+      "comment": "",
+      "command": "click",
+      "target": "id=nome",
+      "targets": [
+        ["id=nome", "id"],
+        ["name=nome", "name"],
+        ["css=#nome", "css:finder"],
+        ["xpath=//input[@id='nome']", "xpath:attributes"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "97683328-e552-48a8-94bb-51eb9fa259fb",
+      "comment": "",
+      "command": "type",
+      "target": "id=nome",
+      "targets": [
+        ["id=nome", "id"],
+        ["name=nome", "name"],
+        ["css=#nome", "css:finder"],
+        ["xpath=//input[@id='nome']", "xpath:attributes"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": "a-eiouão"
+    }, {
+      "id": "fbc3f8de-7fe5-421c-9192-8cdd7c925cec",
+      "comment": "",
+      "command": "click",
+      "target": "id=cpf",
+      "targets": [
+        ["id=cpf", "id"],
+        ["name=cpf", "name"],
+        ["css=#cpf", "css:finder"],
+        ["xpath=//input[@id='cpf']", "xpath:attributes"],
+        ["xpath=//input[2]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "dc293dc1-cd4b-4e7c-beec-48f67ed422a6",
+      "comment": "",
+      "command": "type",
+      "target": "id=cpf",
+      "targets": [
+        ["id=cpf", "id"],
+        ["name=cpf", "name"],
+        ["css=#cpf", "css:finder"],
+        ["xpath=//input[@id='cpf']", "xpath:attributes"],
+        ["xpath=//input[2]", "xpath:position"]
+      ],
+      "value": "54229436866"
+    }, {
+      "id": "f4c709f2-9cc6-4068-86b3-0fef37cd59fa",
+      "comment": "",
+      "command": "click",
+      "target": "id=rendimento",
+      "targets": [
+        ["id=rendimento", "id"],
+        ["name=rendimento", "name"],
+        ["css=#rendimento", "css:finder"],
+        ["xpath=//input[@id='rendimento']", "xpath:attributes"],
+        ["xpath=//input[3]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "6ca12f62-fd09-4f5b-a809-2c74bc1c0d5d",
+      "comment": "",
+      "command": "type",
+      "target": "id=rendimento",
+      "targets": [
+        ["id=rendimento", "id"],
+        ["name=rendimento", "name"],
+        ["css=#rendimento", "css:finder"],
+        ["xpath=//input[@id='rendimento']", "xpath:attributes"],
+        ["xpath=//input[3]", "xpath:position"]
+      ],
+      "value": "5597616"
+    }, {
+      "id": "aa0f8a03-9995-483a-810c-79f98d83970c",
+      "comment": "",
+      "command": "click",
+      "target": "css=.button",
+      "targets": [
+        ["css=.button", "css:finder"],
+        ["xpath=//input[@value='Concluído']", "xpath:attributes"],
+        ["xpath=//input[4]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "1b8e7793-c754-47b5-98e1-b23e3b701c79",
+      "comment": "",
+      "command": "click",
+      "target": "css=p:nth-child(2)",
+      "targets": [
+        ["css=p:nth-child(2)", "css:finder"],
+        ["xpath=//p[@name='nome']", "xpath:attributes"],
+        ["xpath=//p", "xpath:position"],
+        ["xpath=//p[contains(.,'Nome: a-eiouão')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "761eeb30-bd0e-4ed4-a076-1694a56e7d44",
+      "comment": "",
+      "command": "verifyText",
+      "target": "css=p:nth-child(2)",
+      "targets": [
+        ["css=p:nth-child(2)", "css:finder"],
+        ["xpath=//p[@name='nome']", "xpath:attributes"],
+        ["xpath=//p", "xpath:position"],
+        ["xpath=//p[contains(.,'Nome: a-eiouão')]", "xpath:innerText"]
+      ],
+      "value": "Nome: a-eiouão"
+    }, {
+      "id": "6ac18c17-a06e-4749-90bb-652cd932aa53",
+      "comment": "",
+      "command": "verifyText",
+      "target": "css=p:nth-child(2)",
+      "targets": [
+        ["css=p:nth-child(2)", "css:finder"],
+        ["xpath=//p[@name='nome']", "xpath:attributes"],
+        ["xpath=//p", "xpath:position"],
+        ["xpath=//p[contains(.,'Nome: a-eiouão')]", "xpath:innerText"]
+      ],
+      "value": "Nome: a-eiouão"
+    }, {
+      "id": "9c0ff64b-fb2b-4e6e-9923-6d4a3e1f2528",
+      "comment": "",
+      "command": "click",
+      "target": "css=p:nth-child(3)",
+      "targets": [
+        ["css=p:nth-child(3)", "css:finder"],
+        ["xpath=//p[@name='cpf']", "xpath:attributes"],
+        ["xpath=//p[2]", "xpath:position"],
+        ["xpath=//p[contains(.,'CPF: 54229436866')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "97827016-4fd5-4aab-8830-06b4e9ce0da0",
+      "comment": "",
+      "command": "verifyText",
+      "target": "css=p:nth-child(3)",
+      "targets": [
+        ["css=p:nth-child(3)", "css:finder"],
+        ["xpath=//p[@name='cpf']", "xpath:attributes"],
+        ["xpath=//p[2]", "xpath:position"],
+        ["xpath=//p[contains(.,'CPF: 54229436866')]", "xpath:innerText"]
+      ],
+      "value": "CPF: 54229436866"
+    }, {
+      "id": "fd1a44ce-c51d-4d2c-a5c7-aa9684f6f0f2",
+      "comment": "",
+      "command": "click",
+      "target": "css=p:nth-child(4)",
+      "targets": [
+        ["css=p:nth-child(4)", "css:finder"],
+        ["xpath=//p[@name='rendimento']", "xpath:attributes"],
+        ["xpath=//p[3]", "xpath:position"],
+        ["xpath=//p[contains(.,'Rendimento: R$ 5597616')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "8cd9871c-90bf-42ac-bd91-ee04b38b6e82",
+      "comment": "",
+      "command": "verifyText",
+      "target": "css=p:nth-child(4)",
+      "targets": [
+        ["css=p:nth-child(4)", "css:finder"],
+        ["xpath=//p[@name='rendimento']", "xpath:attributes"],
+        ["xpath=//p[3]", "xpath:position"],
+        ["xpath=//p[contains(.,'Rendimento: R$ 5597616')]", "xpath:innerText"]
+      ],
+      "value": "Rendimento: R$ 5597616"
+    }, {
+      "id": "bfd8076b-4912-43c6-8f0f-af4e5fbbad6e",
+      "comment": "",
+      "command": "click",
+      "target": "css=body",
+      "targets": [
+        ["css=body", "css:finder"],
+        ["xpath=//body", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "44d82e9c-83d7-4412-976a-e936b139eb40",
+      "comment": "",
+      "command": "click",
+      "target": "css=p:nth-child(6)",
+      "targets": [
+        ["css=p:nth-child(6)", "css:finder"],
+        ["xpath=//p[@name='imposto']", "xpath:attributes"],
+        ["xpath=//p[5]", "xpath:position"],
+        ["xpath=//p[contains(.,'Termos de Imposto: R$ 1539344.4')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "6185020c-3837-4045-b15f-2a6e24a53a6e",
+      "comment": "",
+      "command": "click",
+      "target": "css=p:nth-child(5)",
+      "targets": [
+        ["css=p:nth-child(5)", "css:finder"],
+        ["xpath=//p[@name='aliquota']", "xpath:attributes"],
+        ["xpath=//p[4]", "xpath:position"],
+        ["xpath=//p[contains(.,'Alíquota: 27.5%')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "a3dbc598-ab3b-468b-8098-309facf80307",
+      "comment": "",
+      "command": "verifyText",
+      "target": "css=p:nth-child(5)",
+      "targets": [
+        ["css=p:nth-child(5)", "css:finder"],
+        ["xpath=//p[@name='aliquota']", "xpath:attributes"],
+        ["xpath=//p[4]", "xpath:position"],
+        ["xpath=//p[contains(.,'Alíquota: 27.5%')]", "xpath:innerText"]
+      ],
+      "value": "Alíquota: 27.5%"
+    }, {
+      "id": "6f3a835c-6c6d-4b63-b03d-cab866923acd",
+      "comment": "",
+      "command": "click",
+      "target": "css=body",
+      "targets": [
+        ["css=body", "css:finder"],
+        ["xpath=//body", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "9626b5d8-deea-49f6-ae0f-db6019b46451",
+      "comment": "",
+      "command": "verifyText",
+      "target": "css=p:nth-child(6)",
+      "targets": [
+        ["css=p:nth-child(6)", "css:finder"],
+        ["xpath=//p[@name='imposto']", "xpath:attributes"],
+        ["xpath=//p[5]", "xpath:position"],
+        ["xpath=//p[contains(.,'Termos de Imposto: R$ 1539344.4')]", "xpath:innerText"]
+      ],
+      "value": "Termos de Imposto: R$ 1539344.4"
+    }]
+  }, {
+    "id": "05fc4d62-9362-467c-9ddf-ba27fbf72867",
+    "name": "igualdade menor",
+    "commands": [{
+      "id": "8a085724-e3f8-4031-84bd-2551dbb1ce0d",
+      "comment": "",
+      "command": "open",
+      "target": "http://localhost/aliquota/view/index.php",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "d62a5c07-71e5-4e55-9e40-421624484ce1",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "860x552",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "c5b78711-f172-49f6-8dff-e54be3213ed8",
+      "comment": "",
+      "command": "click",
+      "target": "id=nome",
+      "targets": [
+        ["id=nome", "id"],
+        ["name=nome", "name"],
+        ["css=#nome", "css:finder"],
+        ["xpath=//input[@id='nome']", "xpath:attributes"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "9c6dea4f-8120-4a4a-b693-a2860977cd31",
+      "comment": "",
+      "command": "type",
+      "target": "id=nome",
+      "targets": [
+        ["id=nome", "id"],
+        ["name=nome", "name"],
+        ["css=#nome", "css:finder"],
+        ["xpath=//input[@id='nome']", "xpath:attributes"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": "a-eiouão"
+    }, {
+      "id": "7b943eaa-30d9-4613-9c4d-cef2528452e0",
+      "comment": "",
+      "command": "click",
+      "target": "id=cpf",
+      "targets": [
+        ["id=cpf", "id"],
+        ["name=cpf", "name"],
+        ["css=#cpf", "css:finder"],
+        ["xpath=//input[@id='cpf']", "xpath:attributes"],
+        ["xpath=//input[2]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "7fd9708f-8983-4057-a5e7-1fc9fa0767ca",
+      "comment": "",
+      "command": "type",
+      "target": "id=cpf",
+      "targets": [
+        ["id=cpf", "id"],
+        ["name=cpf", "name"],
+        ["css=#cpf", "css:finder"],
+        ["xpath=//input[@id='cpf']", "xpath:attributes"],
+        ["xpath=//input[2]", "xpath:position"]
+      ],
+      "value": "54229436866"
+    }, {
+      "id": "9ae27edd-8318-4b89-9655-f25874e5e701",
+      "comment": "",
+      "command": "click",
+      "target": "id=rendimento",
+      "targets": [
+        ["id=rendimento", "id"],
+        ["name=rendimento", "name"],
+        ["css=#rendimento", "css:finder"],
+        ["xpath=//input[@id='rendimento']", "xpath:attributes"],
+        ["xpath=//input[3]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "37126bb0-c89b-4a2f-a149-1b6931abe81f",
+      "comment": "",
+      "command": "click",
+      "target": "id=rendimento",
+      "targets": [
+        ["id=rendimento", "id"],
+        ["name=rendimento", "name"],
+        ["css=#rendimento", "css:finder"],
+        ["xpath=//input[@id='rendimento']", "xpath:attributes"],
+        ["xpath=//input[3]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "0f903d60-86a8-4dfc-8699-c856d7097761",
+      "comment": "",
+      "command": "type",
+      "target": "id=rendimento",
+      "targets": [
+        ["id=rendimento", "id"],
+        ["name=rendimento", "name"],
+        ["css=#rendimento", "css:finder"],
+        ["xpath=//input[@id='rendimento']", "xpath:attributes"],
+        ["xpath=//input[3]", "xpath:position"]
+      ],
+      "value": "55"
+    }, {
+      "id": "34f75d7b-0abb-4929-862d-2762ca01cfb7",
+      "comment": "",
+      "command": "type",
+      "target": "id=rendimento",
+      "targets": [
+        ["id=rendimento", "id"],
+        ["name=rendimento", "name"],
+        ["css=#rendimento", "css:finder"],
+        ["xpath=//input[@id='rendimento']", "xpath:attributes"],
+        ["xpath=//input[3]", "xpath:position"]
+      ],
+      "value": "5597615"
+    }, {
+      "id": "a0f2cb3a-6415-4966-b920-8710c04dfdc9",
+      "comment": "",
+      "command": "click",
+      "target": "css=.button",
+      "targets": [
+        ["css=.button", "css:finder"],
+        ["xpath=//input[@value='Concluído']", "xpath:attributes"],
+        ["xpath=//input[4]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "aa147a7d-cc67-4661-8f41-828428e4f6e5",
+      "comment": "",
+      "command": "click",
+      "target": "css=p:nth-child(2)",
+      "targets": [
+        ["css=p:nth-child(2)", "css:finder"],
+        ["xpath=//p[@name='nome']", "xpath:attributes"],
+        ["xpath=//p", "xpath:position"],
+        ["xpath=//p[contains(.,'Nome: a-eiouão')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "3afa95bb-6fe7-45b8-ab45-698b76f80c21",
+      "comment": "",
+      "command": "verifyText",
+      "target": "css=p:nth-child(2)",
+      "targets": [
+        ["css=p:nth-child(2)", "css:finder"],
+        ["xpath=//p[@name='nome']", "xpath:attributes"],
+        ["xpath=//p", "xpath:position"],
+        ["xpath=//p[contains(.,'Nome: a-eiouão')]", "xpath:innerText"]
+      ],
+      "value": "Nome: a-eiouão"
+    }, {
+      "id": "049c6b8c-fd31-4504-b071-103eb5b87d10",
+      "comment": "",
+      "command": "click",
+      "target": "css=p:nth-child(3)",
+      "targets": [
+        ["css=p:nth-child(3)", "css:finder"],
+        ["xpath=//p[@name='cpf']", "xpath:attributes"],
+        ["xpath=//p[2]", "xpath:position"],
+        ["xpath=//p[contains(.,'CPF: 54229436866')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "47023e58-c8d6-420f-b76f-601db641900b",
+      "comment": "",
+      "command": "verifyText",
+      "target": "css=p:nth-child(3)",
+      "targets": [
+        ["css=p:nth-child(3)", "css:finder"],
+        ["xpath=//p[@name='cpf']", "xpath:attributes"],
+        ["xpath=//p[2]", "xpath:position"],
+        ["xpath=//p[contains(.,'CPF: 54229436866')]", "xpath:innerText"]
+      ],
+      "value": "CPF: 54229436866"
+    }, {
+      "id": "a9bf4a3c-f22b-48cd-8461-ea6e3fe78438",
+      "comment": "",
+      "command": "click",
+      "target": "css=p:nth-child(4)",
+      "targets": [
+        ["css=p:nth-child(4)", "css:finder"],
+        ["xpath=//p[@name='rendimento']", "xpath:attributes"],
+        ["xpath=//p[3]", "xpath:position"],
+        ["xpath=//p[contains(.,'Rendimento: R$ 5597615')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "79798cd6-7126-4dd0-8fba-6c751080b3fc",
+      "comment": "",
+      "command": "verifyText",
+      "target": "css=p:nth-child(4)",
+      "targets": [
+        ["css=p:nth-child(4)", "css:finder"],
+        ["xpath=//p[@name='rendimento']", "xpath:attributes"],
+        ["xpath=//p[3]", "xpath:position"],
+        ["xpath=//p[contains(.,'Rendimento: R$ 5597615')]", "xpath:innerText"]
+      ],
+      "value": "Rendimento: R$ 5597615"
+    }, {
+      "id": "e4f411bb-f89b-42ae-80c2-4f116e2406d8",
+      "comment": "",
+      "command": "click",
+      "target": "css=p:nth-child(5)",
+      "targets": [
+        ["css=p:nth-child(5)", "css:finder"],
+        ["xpath=//p[@name='aliquota']", "xpath:attributes"],
+        ["xpath=//p[4]", "xpath:position"],
+        ["xpath=//p[contains(.,'Alíquota: 27.5%')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "cb5e0f83-f7a3-4c28-b746-6a4cf9aca3e5",
+      "comment": "",
+      "command": "verifyText",
+      "target": "css=p:nth-child(5)",
+      "targets": [
+        ["css=p:nth-child(5)", "css:finder"],
+        ["xpath=//p[@name='aliquota']", "xpath:attributes"],
+        ["xpath=//p[4]", "xpath:position"],
+        ["xpath=//p[contains(.,'Alíquota: 27.5%')]", "xpath:innerText"]
+      ],
+      "value": "Alíquota: 27.5%"
+    }, {
+      "id": "70ece695-56e4-4c41-a309-cb3fb4b61b5c",
+      "comment": "",
+      "command": "click",
+      "target": "css=p:nth-child(6)",
+      "targets": [
+        ["css=p:nth-child(6)", "css:finder"],
+        ["xpath=//p[@name='imposto']", "xpath:attributes"],
+        ["xpath=//p[5]", "xpath:position"],
+        ["xpath=//p[contains(.,'Termos de Imposto: R$ 1539344.125')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "5b334f4b-656d-4fad-9219-658ab5e0cc45",
+      "comment": "",
+      "command": "verifyText",
+      "target": "css=p:nth-child(6)",
+      "targets": [
+        ["css=p:nth-child(6)", "css:finder"],
+        ["xpath=//p[@name='imposto']", "xpath:attributes"],
+        ["xpath=//p[5]", "xpath:position"],
+        ["xpath=//p[contains(.,'Termos de Imposto: R$ 1539344.125')]", "xpath:innerText"]
+      ],
+      "value": "Termos de Imposto: R$ 1539344.125"
+    }]
+  }, {
+    "id": "8973a2a4-cb18-4330-aaf9-a92748c76ae8",
+    "name": "Igualdade",
+    "commands": [{
+      "id": "0b31a1a6-b485-41d8-9475-d49321eac21d",
+      "comment": "",
+      "command": "open",
+      "target": "http://localhost/aliquota/view/index.php",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "4fca8260-c474-47a0-bce9-f00b3e862157",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "860x552",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "6f0c76c7-da65-4ae3-be20-aa204e4cfafc",
+      "comment": "",
+      "command": "click",
+      "target": "id=nome",
+      "targets": [
+        ["id=nome", "id"],
+        ["name=nome", "name"],
+        ["css=#nome", "css:finder"],
+        ["xpath=//input[@id='nome']", "xpath:attributes"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "0b27ed6c-42b2-4006-adee-9044c1b48f87",
+      "comment": "",
+      "command": "type",
+      "target": "id=nome",
+      "targets": [
+        ["id=nome", "id"],
+        ["name=nome", "name"],
+        ["css=#nome", "css:finder"],
+        ["xpath=//input[@id='nome']", "xpath:attributes"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": "a-eiouão"
+    }, {
+      "id": "bfe38852-72eb-4c04-b927-007c6e5c8742",
+      "comment": "",
+      "command": "click",
+      "target": "id=cpf",
+      "targets": [
+        ["id=cpf", "id"],
+        ["name=cpf", "name"],
+        ["css=#cpf", "css:finder"],
+        ["xpath=//input[@id='cpf']", "xpath:attributes"],
+        ["xpath=//input[2]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "6c9493a9-eac7-427c-9957-f94c11a0cdef",
+      "comment": "",
+      "command": "type",
+      "target": "id=cpf",
+      "targets": [
+        ["id=cpf", "id"],
+        ["name=cpf", "name"],
+        ["css=#cpf", "css:finder"],
+        ["xpath=//input[@id='cpf']", "xpath:attributes"],
+        ["xpath=//input[2]", "xpath:position"]
+      ],
+      "value": "54229436866"
+    }, {
+      "id": "5247e8ba-80c8-4ec6-8c0d-f9f45fae0a83",
+      "comment": "",
+      "command": "click",
+      "target": "id=rendimento",
+      "targets": [
+        ["id=rendimento", "id"],
+        ["name=rendimento", "name"],
+        ["css=#rendimento", "css:finder"],
+        ["xpath=//input[@id='rendimento']", "xpath:attributes"],
+        ["xpath=//input[3]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "94fe93ef-8ffd-41e7-9c4e-67d88d1cfc1d",
+      "comment": "",
+      "command": "type",
+      "target": "id=rendimento",
+      "targets": [
+        ["id=rendimento", "id"],
+        ["name=rendimento", "name"],
+        ["css=#rendimento", "css:finder"],
+        ["xpath=//input[@id='rendimento']", "xpath:attributes"],
+        ["xpath=//input[3]", "xpath:position"]
+      ],
+      "value": "55.97616"
+    }, {
+      "id": "c2ab85ca-0dc6-490c-ad0a-7860e62a3ca7",
+      "comment": "",
+      "command": "click",
+      "target": "css=.button",
+      "targets": [
+        ["css=.button", "css:finder"],
+        ["xpath=//input[@value='Concluído']", "xpath:attributes"],
+        ["xpath=//input[4]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "b2d53b0c-6d40-4baf-b59d-91c7f0e2b48f",
+      "comment": "",
+      "command": "click",
+      "target": "id=rendimento",
+      "targets": [
+        ["id=rendimento", "id"],
+        ["name=rendimento", "name"],
+        ["css=#rendimento", "css:finder"],
+        ["xpath=//input[@id='rendimento']", "xpath:attributes"],
+        ["xpath=//input[3]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "bc378ec6-5358-4f4a-90d4-101db01983a6",
+      "comment": "",
+      "command": "click",
+      "target": "css=.button",
+      "targets": [
+        ["css=.button", "css:finder"],
+        ["xpath=//input[@value='Concluído']", "xpath:attributes"],
+        ["xpath=//input[4]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "c6187347-ea09-46bc-b0da-2d4ea1cfb413",
+      "comment": "",
+      "command": "click",
+      "target": "css=.campo",
+      "targets": [
+        ["css=.campo", "css:finder"],
+        ["xpath=//div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "afb1014c-ddf5-4858-8cdf-01ac737be599",
+      "comment": "",
+      "command": "click",
+      "target": "id=rendimento",
+      "targets": [
+        ["id=rendimento", "id"],
+        ["name=rendimento", "name"],
+        ["css=#rendimento", "css:finder"],
+        ["xpath=//input[@id='rendimento']", "xpath:attributes"],
+        ["xpath=//input[3]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "47038411-b606-406b-9c2c-cddcdf5b08cc",
+      "comment": "",
+      "command": "type",
+      "target": "id=rendimento",
+      "targets": [
+        ["id=rendimento", "id"],
+        ["name=rendimento", "name"],
+        ["css=#rendimento", "css:finder"],
+        ["xpath=//input[@id='rendimento']", "xpath:attributes"],
+        ["xpath=//input[3]", "xpath:position"]
+      ],
+      "value": "5597616"
+    }, {
+      "id": "da4d4aa0-a5d9-4bb2-be48-965e2a58a8c2",
+      "comment": "",
+      "command": "click",
+      "target": "css=.button",
+      "targets": [
+        ["css=.button", "css:finder"],
+        ["xpath=//input[@value='Concluído']", "xpath:attributes"],
+        ["xpath=//input[4]", "xpath:position"]
+      ],
+      "value": ""
+    }]
+  }, {
+    "id": "72aa1e61-863d-45b5-a602-645b2b353d11",
+    "name": "Unidade Maior ",
+    "commands": [{
+      "id": "7f0e2708-3938-4d1a-8c15-a92375fc5902",
+      "comment": "",
+      "command": "open",
+      "target": "http://localhost/aliquota/view/index.php",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "77f9e6ae-a5ea-4f1a-b312-d7cf1f69a10c",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "860x552",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "2cff360a-fc75-4e2b-9cbd-9065935fdfa3",
+      "comment": "",
+      "command": "click",
+      "target": "id=nome",
+      "targets": [
+        ["id=nome", "id"],
+        ["name=nome", "name"],
+        ["css=#nome", "css:finder"],
+        ["xpath=//input[@id='nome']", "xpath:attributes"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "21b7461f-595d-487c-9090-bf94409eb133",
+      "comment": "",
+      "command": "type",
+      "target": "id=nome",
+      "targets": [
+        ["id=nome", "id"],
+        ["name=nome", "name"],
+        ["css=#nome", "css:finder"],
+        ["xpath=//input[@id='nome']", "xpath:attributes"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": "Isis"
+    }, {
+      "id": "8721005c-06ab-42ed-bd4c-8bdfd2db69f9",
+      "comment": "",
+      "command": "click",
+      "target": "id=cpf",
+      "targets": [
+        ["id=cpf", "id"],
+        ["name=cpf", "name"],
+        ["css=#cpf", "css:finder"],
+        ["xpath=//input[@id='cpf']", "xpath:attributes"],
+        ["xpath=//input[2]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "362472cc-5be6-496a-b180-d0df4efdbd44",
+      "comment": "",
+      "command": "type",
+      "target": "id=cpf",
+      "targets": [
+        ["id=cpf", "id"],
+        ["name=cpf", "name"],
+        ["css=#cpf", "css:finder"],
+        ["xpath=//input[@id='cpf']", "xpath:attributes"],
+        ["xpath=//input[2]", "xpath:position"]
+      ],
+      "value": "54229436866"
+    }, {
+      "id": "b49b39ab-4f9b-4aeb-981e-37796f1d2c46",
+      "comment": "",
+      "command": "click",
+      "target": "id=rendimento",
+      "targets": [
+        ["id=rendimento", "id"],
+        ["name=rendimento", "name"],
+        ["css=#rendimento", "css:finder"],
+        ["xpath=//input[@id='rendimento']", "xpath:attributes"],
+        ["xpath=//input[3]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "5e48fcb6-c39b-47e9-a9ab-82e107d29204",
+      "comment": "",
+      "command": "type",
+      "target": "id=rendimento",
+      "targets": [
+        ["id=rendimento", "id"],
+        ["name=rendimento", "name"],
+        ["css=#rendimento", "css:finder"],
+        ["xpath=//input[@id='rendimento']", "xpath:attributes"],
+        ["xpath=//input[3]", "xpath:position"]
+      ],
+      "value": "2284777"
+    }, {
+      "id": "b8f0dd4f-5b3d-49d1-b7ed-80673c20d65a",
+      "comment": "",
+      "command": "click",
+      "target": "css=.button",
+      "targets": [
+        ["css=.button", "css:finder"],
+        ["xpath=//input[@value='Concluído']", "xpath:attributes"],
+        ["xpath=//input[4]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "973f58e0-c14c-4ce8-bdbf-ec7d8f983310",
+      "comment": "",
+      "command": "click",
+      "target": "css=p:nth-child(2)",
+      "targets": [
+        ["css=p:nth-child(2)", "css:finder"],
+        ["xpath=//p[@name='nome']", "xpath:attributes"],
+        ["xpath=//p", "xpath:position"],
+        ["xpath=//p[contains(.,'Nome: Isis')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "ef19aa9f-36fa-41d0-a2a8-a70d2e310c40",
+      "comment": "",
+      "command": "click",
+      "target": "css=p:nth-child(2)",
+      "targets": [
+        ["css=p:nth-child(2)", "css:finder"],
+        ["xpath=//p[@name='nome']", "xpath:attributes"],
+        ["xpath=//p", "xpath:position"],
+        ["xpath=//p[contains(.,'Nome: Isis')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "6a3ac5e4-057a-495e-b571-da776af68a0f",
+      "comment": "",
+      "command": "click",
+      "target": "css=p:nth-child(2)",
+      "targets": [
+        ["css=p:nth-child(2)", "css:finder"],
+        ["xpath=//p[@name='nome']", "xpath:attributes"],
+        ["xpath=//p", "xpath:position"],
+        ["xpath=//p[contains(.,'Nome: Isis')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "dbd0a658-f708-485c-ba44-8721d922ab21",
+      "comment": "",
+      "command": "verifyText",
+      "target": "css=p:nth-child(2)",
+      "targets": [
+        ["css=p:nth-child(2)", "css:finder"],
+        ["xpath=//p[@name='nome']", "xpath:attributes"],
+        ["xpath=//p", "xpath:position"],
+        ["xpath=//p[contains(.,'Nome: Isis')]", "xpath:innerText"]
+      ],
+      "value": "Nome: Isis"
+    }, {
+      "id": "5b7428d4-9265-42c7-b2d9-972dfa26b446",
+      "comment": "",
+      "command": "click",
+      "target": "css=p:nth-child(3)",
+      "targets": [
+        ["css=p:nth-child(3)", "css:finder"],
+        ["xpath=//p[@name='cpf']", "xpath:attributes"],
+        ["xpath=//p[2]", "xpath:position"],
+        ["xpath=//p[contains(.,'CPF: 54229436866')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "e0db4e33-bfb6-4512-8695-7ded56411a92",
+      "comment": "",
+      "command": "verifyText",
+      "target": "css=p:nth-child(3)",
+      "targets": [
+        ["css=p:nth-child(3)", "css:finder"],
+        ["xpath=//p[@name='cpf']", "xpath:attributes"],
+        ["xpath=//p[2]", "xpath:position"],
+        ["xpath=//p[contains(.,'CPF: 54229436866')]", "xpath:innerText"]
+      ],
+      "value": "CPF: 54229436866"
+    }, {
+      "id": "0f906105-7450-43af-92bf-5568786e4ba1",
+      "comment": "",
+      "command": "click",
+      "target": "css=body",
+      "targets": [
+        ["css=body", "css:finder"],
+        ["xpath=//body", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "a86d7d09-4c7a-441d-87fe-d22d50a6ea09",
+      "comment": "",
+      "command": "verifyText",
+      "target": "css=p:nth-child(4)",
+      "targets": [
+        ["css=p:nth-child(4)", "css:finder"],
+        ["xpath=//p[@name='rendimento']", "xpath:attributes"],
+        ["xpath=//p[3]", "xpath:position"],
+        ["xpath=//p[contains(.,'Rendimento: R$ 2284777')]", "xpath:innerText"]
+      ],
+      "value": "Rendimento: R$ 2284777"
+    }, {
+      "id": "74380820-bdfd-4db6-8f69-d8b3a99da812",
+      "comment": "",
+      "command": "click",
+      "target": "css=p:nth-child(5)",
+      "targets": [
+        ["css=p:nth-child(5)", "css:finder"],
+        ["xpath=//p[@name='aliquota']", "xpath:attributes"],
+        ["xpath=//p[4]", "xpath:position"],
+        ["xpath=//p[contains(.,'Alíquota: 27.5%')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "269f9578-f411-4d7a-a653-9b4dd4bbfc50",
+      "comment": "",
+      "command": "verifyText",
+      "target": "css=body",
+      "targets": [
+        ["css=body", "css:finder"],
+        ["xpath=//body", "xpath:position"]
+      ],
+      "value": "Confira seus dados\\nNome: Isis\\nCPF: 54229436866\\nRendimento: R$ 2284777\\nAlíquota: 27.5%\\nTermos de Imposto: R$ 628313.675\\n\\nVoltar ao Início"
+    }, {
+      "id": "cbcf8ee7-3eab-43bb-988a-6829f1e03015",
+      "comment": "",
+      "command": "click",
+      "target": "css=p:nth-child(6)",
+      "targets": [
+        ["css=p:nth-child(6)", "css:finder"],
+        ["xpath=//p[@name='imposto']", "xpath:attributes"],
+        ["xpath=//p[5]", "xpath:position"],
+        ["xpath=//p[contains(.,'Termos de Imposto: R$ 628313.675')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "79573208-d3c1-4f83-816a-327a5d10337d",
+      "comment": "",
+      "command": "verifyText",
+      "target": "css=p:nth-child(6)",
+      "targets": [
+        ["css=p:nth-child(6)", "css:finder"],
+        ["xpath=//p[@name='imposto']", "xpath:attributes"],
+        ["xpath=//p[5]", "xpath:position"],
+        ["xpath=//p[contains(.,'Termos de Imposto: R$ 628313.675')]", "xpath:innerText"]
+      ],
+      "value": "Termos de Imposto: R$ 628313.675"
+    }]
+  }, {
+    "id": "888e1c02-93c4-4500-beba-307af1a84fdf",
+    "name": "Unidade Menor",
+    "commands": [{
+      "id": "5c38bbc0-e7aa-44cd-a4bd-50b281fb9216",
+      "comment": "",
+      "command": "open",
+      "target": "http://localhost/aliquota/view/index.php",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "e4ced073-55e8-41e0-a175-2d634eecffd0",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "860x552",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "dc53d5b1-55eb-40c0-a80b-4da2484efe82",
+      "comment": "",
+      "command": "click",
+      "target": "id=nome",
+      "targets": [
+        ["id=nome", "id"],
+        ["name=nome", "name"],
+        ["css=#nome", "css:finder"],
+        ["xpath=//input[@id='nome']", "xpath:attributes"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "74f114fe-a73f-497d-b59b-9574c9fd627f",
+      "comment": "",
+      "command": "type",
+      "target": "id=nome",
+      "targets": [
+        ["id=nome", "id"],
+        ["name=nome", "name"],
+        ["css=#nome", "css:finder"],
+        ["xpath=//input[@id='nome']", "xpath:attributes"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": "a-eiouão"
+    }, {
+      "id": "32bb0042-93e2-4236-ab6d-bcd4b2df5216",
+      "comment": "",
+      "command": "click",
+      "target": "id=cpf",
+      "targets": [
+        ["id=cpf", "id"],
+        ["name=cpf", "name"],
+        ["css=#cpf", "css:finder"],
+        ["xpath=//input[@id='cpf']", "xpath:attributes"],
+        ["xpath=//input[2]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "9e16621a-7bba-4b27-8749-2583a96ee58c",
+      "comment": "",
+      "command": "type",
+      "target": "id=cpf",
+      "targets": [
+        ["id=cpf", "id"],
+        ["name=cpf", "name"],
+        ["css=#cpf", "css:finder"],
+        ["xpath=//input[@id='cpf']", "xpath:attributes"],
+        ["xpath=//input[2]", "xpath:position"]
+      ],
+      "value": "54229436866"
+    }, {
+      "id": "c4995834-f20a-4142-aa9f-5e16f343d265",
+      "comment": "",
+      "command": "click",
+      "target": "id=rendimento",
+      "targets": [
+        ["id=rendimento", "id"],
+        ["name=rendimento", "name"],
+        ["css=#rendimento", "css:finder"],
+        ["xpath=//input[@id='rendimento']", "xpath:attributes"],
+        ["xpath=//input[3]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "cd72884f-69a2-4728-bd16-454068648030",
+      "comment": "",
+      "command": "click",
+      "target": "id=rendimento",
+      "targets": [
+        ["id=rendimento", "id"],
+        ["name=rendimento", "name"],
+        ["css=#rendimento", "css:finder"],
+        ["xpath=//input[@id='rendimento']", "xpath:attributes"],
+        ["xpath=//input[3]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "3385273e-bd34-4840-9bfe-2310893fd009",
+      "comment": "",
+      "command": "type",
+      "target": "id=rendimento",
+      "targets": [
+        ["id=rendimento", "id"],
+        ["name=rendimento", "name"],
+        ["css=#rendimento", "css:finder"],
+        ["xpath=//input[@id='rendimento']", "xpath:attributes"],
+        ["xpath=//input[3]", "xpath:position"]
+      ],
+      "value": "2284775"
+    }, {
+      "id": "28ac2b10-8309-4366-84ae-a04c8e18a410",
+      "comment": "",
+      "command": "click",
+      "target": "css=.button",
+      "targets": [
+        ["css=.button", "css:finder"],
+        ["xpath=//input[@value='Concluído']", "xpath:attributes"],
+        ["xpath=//input[4]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "353931a1-7e87-4843-8167-5b567c26be16",
+      "comment": "",
+      "command": "click",
+      "target": "css=p:nth-child(2)",
+      "targets": [
+        ["css=p:nth-child(2)", "css:finder"],
+        ["xpath=//p[@name='nome']", "xpath:attributes"],
+        ["xpath=//p", "xpath:position"],
+        ["xpath=//p[contains(.,'Nome: a-eiouão')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "5fa799f5-88f9-4aad-8363-b4303ad1e270",
+      "comment": "",
+      "command": "verifyText",
+      "target": "css=p:nth-child(2)",
+      "targets": [
+        ["css=p:nth-child(2)", "css:finder"],
+        ["xpath=//p[@name='nome']", "xpath:attributes"],
+        ["xpath=//p", "xpath:position"],
+        ["xpath=//p[contains(.,'Nome: a-eiouão')]", "xpath:innerText"]
+      ],
+      "value": "Nome: a-eiouão"
+    }, {
+      "id": "b25e5e16-2c48-459f-be69-07c8c3f1fa24",
+      "comment": "",
+      "command": "click",
+      "target": "css=body",
+      "targets": [
+        ["css=body", "css:finder"],
+        ["xpath=//body", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "984336e3-999d-4592-8d24-433bc6d3df17",
+      "comment": "",
+      "command": "verifyText",
+      "target": "css=p:nth-child(3)",
+      "targets": [
+        ["css=p:nth-child(3)", "css:finder"],
+        ["xpath=//p[@name='cpf']", "xpath:attributes"],
+        ["xpath=//p[2]", "xpath:position"],
+        ["xpath=//p[contains(.,'CPF: 54229436866')]", "xpath:innerText"]
+      ],
+      "value": "CPF: 54229436866"
+    }, {
+      "id": "ca69c8b4-f260-40b9-8b5b-41b47475780e",
+      "comment": "",
+      "command": "click",
+      "target": "css=body",
+      "targets": [
+        ["css=body", "css:finder"],
+        ["xpath=//body", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "c0200447-6534-48aa-ad15-541b9dd8c379",
+      "comment": "",
+      "command": "click",
+      "target": "css=p:nth-child(4)",
+      "targets": [
+        ["css=p:nth-child(4)", "css:finder"],
+        ["xpath=//p[@name='rendimento']", "xpath:attributes"],
+        ["xpath=//p[3]", "xpath:position"],
+        ["xpath=//p[contains(.,'Rendimento: R$ 2284775')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "520e1051-d811-4994-b1ae-aed17d1bddcb",
+      "comment": "",
+      "command": "click",
+      "target": "css=p:nth-child(4)",
+      "targets": [
+        ["css=p:nth-child(4)", "css:finder"],
+        ["xpath=//p[@name='rendimento']", "xpath:attributes"],
+        ["xpath=//p[3]", "xpath:position"],
+        ["xpath=//p[contains(.,'Rendimento: R$ 2284775')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "98f338d0-b95b-4bee-9560-05f318cca817",
+      "comment": "",
+      "command": "verifyText",
+      "target": "css=p:nth-child(4)",
+      "targets": [
+        ["css=p:nth-child(4)", "css:finder"],
+        ["xpath=//p[@name='rendimento']", "xpath:attributes"],
+        ["xpath=//p[3]", "xpath:position"],
+        ["xpath=//p[contains(.,'Rendimento: R$ 2284775')]", "xpath:innerText"]
+      ],
+      "value": "Rendimento: R$ 2284775"
+    }, {
+      "id": "4b8b1ffe-62e4-447e-b3a8-f47adcebdc78",
+      "comment": "",
+      "command": "click",
+      "target": "css=p:nth-child(5)",
+      "targets": [
+        ["css=p:nth-child(5)", "css:finder"],
+        ["xpath=//p[@name='aliquota']", "xpath:attributes"],
+        ["xpath=//p[4]", "xpath:position"],
+        ["xpath=//p[contains(.,'Alíquota: 27.5%')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "77160b45-e539-4dcf-8202-fa1058d4a065",
+      "comment": "",
+      "command": "verifyText",
+      "target": "css=p:nth-child(5)",
+      "targets": [
+        ["css=p:nth-child(5)", "css:finder"],
+        ["xpath=//p[@name='aliquota']", "xpath:attributes"],
+        ["xpath=//p[4]", "xpath:position"],
+        ["xpath=//p[contains(.,'Alíquota: 27.5%')]", "xpath:innerText"]
+      ],
+      "value": "Alíquota: 27.5%"
+    }, {
+      "id": "3cd60594-b7e9-4f36-8ca6-90d570345954",
+      "comment": "",
+      "command": "click",
+      "target": "css=p:nth-child(6)",
+      "targets": [
+        ["css=p:nth-child(6)", "css:finder"],
+        ["xpath=//p[@name='imposto']", "xpath:attributes"],
+        ["xpath=//p[5]", "xpath:position"],
+        ["xpath=//p[contains(.,'Termos de Imposto: R$ 628313.125')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "ff3d4873-c6a1-4ccd-bdc5-925924fce304",
+      "comment": "",
+      "command": "verifyText",
+      "target": "css=p:nth-child(6)",
+      "targets": [
+        ["css=p:nth-child(6)", "css:finder"],
+        ["xpath=//p[@name='imposto']", "xpath:attributes"],
+        ["xpath=//p[5]", "xpath:position"],
+        ["xpath=//p[contains(.,'Termos de Imposto: R$ 628313.125')]", "xpath:innerText"]
+      ],
+      "value": "Termos de Imposto: R$ 628313.125"
+    }]
+  }],
+  "suites": [{
+    "id": "48334a75-8873-4aa4-878b-6665f4b6e42c",
+    "name": "Default Suite",
+    "persistSession": false,
+    "parallel": false,
+    "timeout": 300,
+    "tests": ["22bfa357-3cc2-4a3a-ab6c-70bb834d13d6"]
+  }],
+  "urls": ["https://www.youtube.com/watch?v=Bfh1ojCBJUc", "http://localhost/aliquota/view/index.php"],
+  "plugins": []
+}
